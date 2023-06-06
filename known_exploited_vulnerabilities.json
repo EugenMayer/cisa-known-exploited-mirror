@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.06.02",
-    "dateReleased":  "2023-06-02T12:48:26.5864Z",
-    "count":  942,
+    "catalogVersion":  "2023.06.05",
+    "dateReleased":  "2023-06-05T09:52:09.1067Z",
+    "count":  944,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10365,6 +10365,28 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-06-23",
                                 "notes":  "https://community.progress.com/s/article/MOVEit-Transfer-Critical-Vulnerability-31May2023"
+                            },
+                            {
+                                "cveID":  "CVE-2023-33009",
+                                "vendorProject":  "Zyxel",
+                                "product":  "Multiple Firewalls",
+                                "vulnerabilityName":  "Zyxel Multiple Firewalls Buffer Overflow Vulnerability",
+                                "dateAdded":  "2023-06-05",
+                                "shortDescription":  "Zyxel ATP, USG FLEX, USG FLEX 50(W), USG20(W)-VPN, VPN, and ZyWALL/USG firewalls contain a buffer overflow vulnerability in the notification function that could allow an unauthenticated attacker to cause denial-of-service (DoS) conditions and remote code execution on an affected device.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-26",
+                                "notes":  "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-multiple-buffer-overflow-vulnerabilities-of-firewalls"
+                            },
+                            {
+                                "cveID":  "CVE-2023-33010",
+                                "vendorProject":  "Zyxel",
+                                "product":  "Multiple Firewalls",
+                                "vulnerabilityName":  "Zyxel Multiple Firewalls Buffer Overflow Vulnerability",
+                                "dateAdded":  "2023-06-05",
+                                "shortDescription":  "Zyxel ATP, USG FLEX, USG FLEX 50(W), USG20(W)-VPN, VPN, and ZyWALL/USG firewalls contain a buffer overflow vulnerability in the ID processing function that could allow an unauthenticated attacker to cause denial-of-service (DoS) conditions and remote code execution on an affected device.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-26",
+                                "notes":  "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-multiple-buffer-overflow-vulnerabilities-of-firewalls"
                             }
                         ]
 }
