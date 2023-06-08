@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.06.05",
-    "dateReleased":  "2023-06-05T09:52:09.1067Z",
-    "count":  944,
+    "catalogVersion":  "2023.06.07",
+    "dateReleased":  "2023-06-07T13:54:34.4502Z",
+    "count":  945,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10387,6 +10387,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-06-26",
                                 "notes":  "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-multiple-buffer-overflow-vulnerabilities-of-firewalls"
+                            },
+                            {
+                                "cveID":  "CVE-2023-3079",
+                                "vendorProject":  "Google",
+                                "product":  "Chromium V8 Engine",
+                                "vulnerabilityName":  "Google Chromium V8 Type Confusion Vulnerability",
+                                "dateAdded":  "2023-06-07",
+                                "shortDescription":  "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+                                "requiredAction":  "Apply updates per vendor instructions.",
+                                "dueDate":  "2023-06-28",
+                                "notes":  "https://chromereleases.googleblog.com/2023/06/stable-channel-update-for-desktop.html"
                             }
                         ]
 }
