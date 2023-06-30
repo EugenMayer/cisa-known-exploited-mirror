@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.06.23",
-    "dateReleased":  "2023-06-23T09:49:53.8664Z",
-    "count":  957,
+    "catalogVersion":  "2023.06.29",
+    "dateReleased":  "2023-06-29T09:35:35.1123Z",
+    "count":  965,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10485,7 +10485,7 @@
                                 "shortDescription":  "Apple iOS. iPadOS, macOS, and watchOS contain an integer overflow vulnerability that could allow an application to execute code with kernel privileges.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-07-14",
-                                "notes":  "https://support.apple.com/en-us/HT213808 , https://support.apple.com/en-us/HT213812 , https://support.apple.com/en-us/HT213809 , https://support.apple.com/en-us/HT213810 , https://support.apple.com/en-us/HT213813 , https://support.apple.com/en-us/HT213811 , https://support.apple.com/en-us/HT213814"
+                                "notes":  "https://support.apple.com/en-us/HT213808, https://support.apple.com/en-us/HT213812, https://support.apple.com/en-us/HT213809, https://support.apple.com/en-us/HT213810, https://support.apple.com/en-us/HT213813, https://support.apple.com/en-us/HT213811, https://support.apple.com/en-us/HT213814"
                             },
                             {
                                 "cveID":  "CVE-2023-32435",
@@ -10507,7 +10507,7 @@
                                 "shortDescription":  "Apple iOS, iPadOS, macOS, and Safari WebKit contain a type confusion vulnerability that leads to code execution when processing maliciously crafted web content.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-07-14",
-                                "notes":  "https://support.apple.com/en-us/HT213813 , https://support.apple.com/en-us/HT213811 , https://support.apple.com/en-us/HT213814 , https://support.apple.com/en-us/HT213816"
+                                "notes":  "https://support.apple.com/en-us/HT213813, https://support.apple.com/en-us/HT213811, https://support.apple.com/en-us/HT213814, https://support.apple.com/en-us/HT213816"
                             },
                             {
                                 "cveID":  "CVE-2023-20867",
@@ -10530,6 +10530,94 @@
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-07-14",
                                 "notes":  "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-pre-authentication-command-injection-vulnerability-in-nas-products"
+                            },
+                            {
+                                "cveID":  "CVE-2019-17621",
+                                "vendorProject":  "D-Link",
+                                "product":  "DIR-859 Router",
+                                "vulnerabilityName":  "D-Link DIR-859 Router Command Execution Vulnerability",
+                                "dateAdded":  "2023-06-29",
+                                "shortDescription":  "D-Link DIR-859 router contains a command execution vulnerability in the UPnP endpoint URL, /gena.cgi. Exploitation allows an unauthenticated remote attacker to execute system commands as root by sending a specially crafted HTTP SUBSCRIBE request to the UPnP service when connecting to the local network.",
+                                "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable",
+                                "dueDate":  "2023-07-20",
+                                "notes":  "https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10147"
+                            },
+                            {
+                                "cveID":  "CVE-2019-20500",
+                                "vendorProject":  "D-Link",
+                                "product":  "DWL-2600AP Access Point",
+                                "vulnerabilityName":  "D-Link DWL-2600AP Access Point Command Injection Vulnerability",
+                                "dateAdded":  "2023-06-29",
+                                "shortDescription":  "D-Link DWL-2600AP access point contains an authenticated command injection vulnerability via the Save Configuration functionality in the Web interface, using shell metacharacters in the admin.cgi?action=config_save configBackup or downloadServerip parameter.",
+                                "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable",
+                                "dueDate":  "2023-07-20",
+                                "notes":  "https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10113"
+                            },
+                            {
+                                "cveID":  "CVE-2021-25487",
+                                "vendorProject":  "Samsung",
+                                "product":  "Mobile Devices",
+                                "vulnerabilityName":  "Samsung Mobile Devices Out-of-Bounds Read Vulnerability",
+                                "dateAdded":  "2023-06-29",
+                                "shortDescription":  "Samsung mobile devices contain an out-of-bounds read vulnerability within the modem interface driver due to a lack of boundary checking of a buffer in set_skb_priv(), leading to remote code execution by dereference of an invalid function pointer.",
+                                "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable",
+                                "dueDate":  "2023-07-20",
+                                "notes":  "https://security.samsungmobile.com/securityUpdate.smsb?year=2021\u0026month=10"
+                            },
+                            {
+                                "cveID":  "CVE-2021-25489",
+                                "vendorProject":  "Samsung",
+                                "product":  "Mobile Devices",
+                                "vulnerabilityName":  "Samsung Mobile Devices Improper Input Validation Vulnerability",
+                                "dateAdded":  "2023-06-29",
+                                "shortDescription":  "Samsung mobile devices contain an improper input validation vulnerability within the modem interface driver that results in a format string bug leading to kernel panic.",
+                                "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable",
+                                "dueDate":  "2023-07-20",
+                                "notes":  "https://security.samsungmobile.com/securityUpdate.smsb?year=2021\u0026month=10"
+                            },
+                            {
+                                "cveID":  "CVE-2021-25394",
+                                "vendorProject":  "Samsung",
+                                "product":  "Mobile Devices",
+                                "vulnerabilityName":  "Samsung Mobile Devices Race Condition Vulnerability",
+                                "dateAdded":  "2023-06-29",
+                                "shortDescription":  "Samsung mobile devices contain a race condition vulnerability within the MFC charger driver that leads to a use-after-free allowing for a write given a radio privilege is compromised.",
+                                "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable",
+                                "dueDate":  "2023-07-20",
+                                "notes":  "https://security.samsungmobile.com/securityUpdate.smsb?year=2021\u0026month=5"
+                            },
+                            {
+                                "cveID":  "CVE-2021-25395",
+                                "vendorProject":  "Samsung",
+                                "product":  "Mobile Devices",
+                                "vulnerabilityName":  "Samsung Mobile Devices Race Condition Vulnerability",
+                                "dateAdded":  "2023-06-29",
+                                "shortDescription":  "Samsung mobile devices contain a race condition vulnerability within the MFC charger driver that leads to a use-after-free allowing for a write given a radio privilege is compromised.",
+                                "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable",
+                                "dueDate":  "2023-07-20",
+                                "notes":  "https://security.samsungmobile.com/securityUpdate.smsb?year=2021\u0026month=5"
+                            },
+                            {
+                                "cveID":  "CVE-2021-25371",
+                                "vendorProject":  "Samsung",
+                                "product":  "Mobile Devices",
+                                "vulnerabilityName":  "Samsung Mobile Devices Unspecified Vulnerability",
+                                "dateAdded":  "2023-06-29",
+                                "shortDescription":  "Samsung mobile devices contain an unspecified vulnerability within DSP driver that allows attackers to load ELF libraries inside DSP.",
+                                "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable",
+                                "dueDate":  "2023-07-20",
+                                "notes":  "https://security.samsungmobile.com/securityUpdate.smsb?year=2021\u0026month=3"
+                            },
+                            {
+                                "cveID":  "CVE-2021-25372",
+                                "vendorProject":  "Samsung",
+                                "product":  "Mobile Devices",
+                                "vulnerabilityName":  "Samsung Mobile Devices Improper Boundary Check Vulnerability",
+                                "dateAdded":  "2023-06-29",
+                                "shortDescription":  "Samsung mobile devices contain an improper boundary check vulnerability within DSP driver that allows for out-of-bounds memory access.",
+                                "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable",
+                                "dueDate":  "2023-07-20",
+                                "notes":  "https://security.samsungmobile.com/securityUpdate.smsb?year=2021\u0026month=3"
                             }
                         ]
 }
