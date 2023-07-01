@@ -1,7 +1,7 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.06.29",
-    "dateReleased":  "2023-06-29T09:35:35.1123Z",
+    "catalogVersion":  "2023.06.30",
+    "dateReleased":  "2023-06-30T11:38:30.4805Z",
     "count":  965,
     "vulnerabilities":  [
                             {
@@ -10490,13 +10490,13 @@
                             {
                                 "cveID":  "CVE-2023-32435",
                                 "vendorProject":  "Apple",
-                                "product":  "iOS and macOS",
-                                "vulnerabilityName":  "Apple iOS and iPadOS WebKit Memory Corruption Vulnerability",
+                                "product":  "Multiple Products",
+                                "vulnerabilityName":  "Apple Multiple Products WebKit Memory Corruption Vulnerability",
                                 "dateAdded":  "2023-06-23",
-                                "shortDescription":  "Apple iOS and iPadOS WebKit contain a memory corruption vulnerability that leads to code execution when processing web content.",
+                                "shortDescription":  "Apple iOS, iPadOS, macOS, and Safari WebKit contain a memory corruption vulnerability that leads to code execution when processing web content.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-07-14",
-                                "notes":  "https://support.apple.com/en-us/HT213811"
+                                "notes":  "https://support.apple.com/en-us/HT213670, https://support.apple.com/en-us/HT213671, https://support.apple.com/en-us/HT213676, https://support.apple.com/en-us/HT213811"
                             },
                             {
                                 "cveID":  "CVE-2023-32439",
