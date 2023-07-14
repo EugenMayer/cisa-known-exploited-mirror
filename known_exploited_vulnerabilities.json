@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.07.11",
-    "dateReleased":  "2023-07-11T10:14:33.3890Z",
-    "count":  971,
+    "catalogVersion":  "2023.07.13",
+    "dateReleased":  "2023-07-13T09:42:44.9150Z",
+    "count":  973,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -164,7 +164,7 @@
                                 "product":  "HTTP Server",
                                 "vulnerabilityName":  "Apache HTTP Server Path Traversal Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Apache HTTP Server contains a path traversal vulnerability which allows an attacker to perform remote code execution if files outside directories configured by Alias-like directives are not under default ?require all denied? or if CGI scripts are enabled. This CVE ID resolves an incomplete patch for CVE-2021-41773.",
+                                "shortDescription":  "Apache HTTP Server contains a path traversal vulnerability which allows an attacker to perform remote code execution if files outside directories configured by Alias-like directives are not under default �require all denied� or if CGI scripts are enabled. This CVE ID resolves an incomplete patch for CVE-2021-41773.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -175,7 +175,7 @@
                                 "product":  "HTTP Server",
                                 "vulnerabilityName":  "Apache HTTP Server Path Traversal Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Apache HTTP Server contains a path traversal vulnerability which allows an attacker to perform remote code execution if files outside directories configured by Alias-like directives are not under default ?require all denied? or if CGI scripts are enabled. The original patch issued under this CVE ID is insufficient, please review remediation information under CVE-2021-42013.",
+                                "shortDescription":  "Apache HTTP Server contains a path traversal vulnerability which allows an attacker to perform remote code execution if files outside directories configured by Alias-like directives are not under default �require all denied� or if CGI scripts are enabled. The original patch issued under this CVE ID is insufficient, please review remediation information under CVE-2021-42013.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -241,7 +241,7 @@
                                 "product":  "Struts",
                                 "vulnerabilityName":  "Apache Struts Remote Code Execution Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Apache Struts contains a vulnerability which allows for remote code execution under two circumstances. One, where the alwaysSelectFullNamespace option is true and the value isn\u0027t set for a result defined in underlying configurations and in same time, its upper package configuration have no or wildcard namespace.  Or, using URL tag which doesn?t have value and action set and in same time, its upper package configuration have no or wildcard namespace.",
+                                "shortDescription":  "Apache Struts contains a vulnerability which allows for remote code execution under two circumstances. One, where the alwaysSelectFullNamespace option is true and the value isn\u0027t set for a result defined in underlying configurations and in same time, its upper package configuration have no or wildcard namespace.  Or, using URL tag which doesn�t have value and action set and in same time, its upper package configuration have no or wildcard namespace.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -626,7 +626,7 @@
                                 "product":  "HyperFlex HX",
                                 "vulnerabilityName":  "Cisco HyperFlex HX Installer Virtual Machine Command Injection Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Cisco HyperFlex HX Installer Virtual Machine contains an insufficient input validation vulnerability which could allow an attacker to execute commands on an affected device as the?root?user.",
+                                "shortDescription":  "Cisco HyperFlex HX Installer Virtual Machine contains an insufficient input validation vulnerability which could allow an attacker to execute commands on an affected device as the�root�user.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -692,7 +692,7 @@
                                 "product":  "Cisco IP Phones",
                                 "vulnerabilityName":  "Cisco IP Phones Web Server Remote Code Execution and Denial-of-Service Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Cisco IP Phones contain an improper input validation vulnerability for HTTP requests. Exploitation could allow an attacker to execute code remotely with?root?privileges or cause a denial-of-service condition.",
+                                "shortDescription":  "Cisco IP Phones contain an improper input validation vulnerability for HTTP requests. Exploitation could allow an attacker to execute code remotely with�root�privileges or cause a denial-of-service condition.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -1253,7 +1253,7 @@
                                 "product":  "Data Risk Manager",
                                 "vulnerabilityName":  "IBM Data Risk Manager Remote Code Execution Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "IBM Data Risk Manager contains an unspecified vulnerability which could allow a remote, authenticated attacker to execute commands on the system.?",
+                                "shortDescription":  "IBM Data Risk Manager contains an unspecified vulnerability which could allow a remote, authenticated attacker to execute commands on the system.�",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -1858,7 +1858,7 @@
                                 "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows Privilege Escalation Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Microsoft Windows contains an unspecified vulnerability due to the way ws2ifsl.sys (Winsock) handles objects in memory, allowing for privilege escalation. Successful exploitation allows an attacker to execute code with elevated privileges.?",
+                                "shortDescription":  "Microsoft Windows contains an unspecified vulnerability due to the way ws2ifsl.sys (Winsock) handles objects in memory, allowing for privilege escalation. Successful exploitation allows an attacker to execute code with elevated privileges.�",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -2518,7 +2518,7 @@
                                 "product":  "AP-Router SDK",
                                 "vulnerabilityName":  "Realtek AP-Router SDK Buffer Overflow Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Realtek AP-Router SDK HTTP web server ?boa? contains a buffer overflow vulnerability due to unsafe copies of some overly long parameters submitted in the form that lead to denial-of-service.",
+                                "shortDescription":  "Realtek AP-Router SDK HTTP web server �boa� contains a buffer overflow vulnerability due to unsafe copies of some overly long parameters submitted in the form that lead to denial-of-service.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -9767,7 +9767,7 @@
                                 "product":  "ManageEngine",
                                 "vulnerabilityName":  "Zoho ManageEngine ADSelfService Plus Remote Code Execution Vulnerability",
                                 "dateAdded":  "2023-03-07",
-                                "shortDescription":  "Multiple Zoho ManageEngine ADSelfService Plus contains an unspecified vulnerability allowing for remote code execution when performing a password change or reset.",
+                                "shortDescription":  "Zoho ManageEngine ADSelfService Plus contains an unspecified vulnerability allowing for remote code execution when performing a password change or reset.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-28",
                                 "notes":  "https://www.manageengine.com/products/self-service-password/advisory/CVE-2022-28810.html"
@@ -10633,7 +10633,7 @@
                             {
                                 "cveID":  "CVE-2023-32046",
                                 "vendorProject":  "Microsoft",
-                                "product":  "Windows MSHTML Platform",
+                                "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows MSHTML Platform Privilege Escalation Vulnerability",
                                 "dateAdded":  "2023-07-11",
                                 "shortDescription":  "Microsoft Windows MSHTML Platform contains an unspecified vulnerability that allows for privilege escalation.",
@@ -10644,7 +10644,7 @@
                             {
                                 "cveID":  "CVE-2023-32049",
                                 "vendorProject":  "Microsoft",
-                                "product":  "Windows Defender SmartScreen",
+                                "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows Defender SmartScreen Security Feature Bypass Vulnerability",
                                 "dateAdded":  "2023-07-11",
                                 "shortDescription":  "Microsoft Windows Defender SmartScreen contains a security feature bypass vulnerability that allows an attacker to bypass the Open File - Security Warning prompt.",
@@ -10666,7 +10666,7 @@
                             {
                                 "cveID":  "CVE-2023-36874",
                                 "vendorProject":  "Microsoft",
-                                "product":  "Windows Error Reporting Service",
+                                "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows Error Reporting Service Privilege Escalation Vulnerability",
                                 "dateAdded":  "2023-07-11",
                                 "shortDescription":  "Microsoft Windows Error Reporting Service contains an unspecified vulnerability that allows for privilege escalation.",
@@ -10680,10 +10680,32 @@
                                 "product":  "Auditor",
                                 "vulnerabilityName":  "Netwrix Auditor Insecure Object Deserialization Vulnerability",
                                 "dateAdded":  "2023-07-11",
-                                "shortDescription":  "Netwrix Auditor User Activity Video Recording component contains an insecure objection deserialization vulnerability that allows an unauthenticated, remote attacker to execute code as the NT AUTHORITY\\SYSTEM user. Successful exploitation requires that the attacker to be able to reach port 9004/TCP, which is commonly blocked by standard enterprise firewalling.",
+                                "shortDescription":  "Netwrix Auditor User Activity Video Recording component contains an insecure objection deserialization vulnerability that allows an unauthenticated, remote attacker to execute code as the NT AUTHORITY\\SYSTEM user. Successful exploitation requires that the attacker is able to reach port 9004/TCP, which is commonly blocked by standard enterprise firewalling.",
                                 "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable.",
                                 "dueDate":  "2023-08-01",
                                 "notes":  "Patch application requires login to customer portal: https://security.netwrix.com/Account/SignIn?ReturnUrl=%2FAdvisories%2FADV-2022-003"
+                            },
+                            {
+                                "cveID":  "CVE-2022-29303",
+                                "vendorProject":  "SolarView",
+                                "product":  "Compact",
+                                "vulnerabilityName":  "SolarView Compact Command Injection Vulnerability",
+                                "dateAdded":  "2023-07-13",
+                                "shortDescription":  "SolarView Compact contains a command injection vulnerability due to improper validation of input values on the send test mail console of the product\u0027s web server.",
+                                "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable.",
+                                "dueDate":  "2023-08-03",
+                                "notes":  "https://jvn.jp/en/vu/JVNVU92327282/"
+                            },
+                            {
+                                "cveID":  "CVE-2023-37450",
+                                "vendorProject":  "Apple",
+                                "product":  "Multiple Products",
+                                "vulnerabilityName":  "Apple Multiple Products WebKit Code Execution Vulnerability",
+                                "dateAdded":  "2023-07-13",
+                                "shortDescription":  "Apple iOS, iPadOS, macOS, and Safari WebKit contain an unspecified vulnerability that can allow an attacker to execute code when processing web content.",
+                                "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable.",
+                                "dueDate":  "2023-08-03",
+                                "notes":  "https://support.apple.com/en-us/HT213823"
                             }
                         ]
 }
