@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.07.13",
-    "dateReleased":  "2023-07-13T09:42:44.9150Z",
-    "count":  973,
+    "catalogVersion":  "2023.07.17",
+    "dateReleased":  "2023-07-17T15:38:51.6623Z",
+    "count":  974,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10706,6 +10706,17 @@
                                 "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable.",
                                 "dueDate":  "2023-08-03",
                                 "notes":  "https://support.apple.com/en-us/HT213823"
+                            },
+                            {
+                                "cveID":  "CVE-2023-36884",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Office and Windows",
+                                "vulnerabilityName":  "Microsoft Office and Windows HTML Remote Code Execution Vulnerability",
+                                "dateAdded":  "2023-07-17",
+                                "shortDescription":  "Microsoft Office and Windows contain an unspecified vulnerability that allows an attacker to perform remote code execution via a specially crafted Microsoft Office document.",
+                                "requiredAction":  "Follow \"CVE-2023-36884 Specific Recommendations\" per vendor instructions. [https://www.microsoft.com/en-us/security/blog/2023/07/11/storm-0978-attacks-reveal-financial-and-espionage-motives/]",
+                                "dueDate":  "2023-08-07",
+                                "notes":  "Required actions will be modified if and when the vendor releases as an update addressing the vulnerability. https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884"
                             }
                         ]
 }
