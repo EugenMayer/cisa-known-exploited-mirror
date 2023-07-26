@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.07.20",
-    "dateReleased":  "2023-07-20T09:49:44.8268Z",
-    "count":  977,
+    "catalogVersion":  "2023.07.25",
+    "dateReleased":  "2023-07-25T12:50:20.5943Z",
+    "count":  978,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10691,7 +10691,7 @@
                                 "product":  "Compact",
                                 "vulnerabilityName":  "SolarView Compact Command Injection Vulnerability",
                                 "dateAdded":  "2023-07-13",
-                                "shortDescription":  "SolarView Compact contains a command injection vulnerability due to improper validation of input values on the send test mail console of the product\u0027s web server.",
+                                "shortDescription":  "SolarView Compact contains a command injection vulnerability due to improper validation of input values on the send test mail console of the product's web server.",
                                 "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable.",
                                 "dueDate":  "2023-08-03",
                                 "notes":  "https://jvn.jp/en/vu/JVNVU92327282/"
@@ -10750,6 +10750,17 @@
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-08-10",
                                 "notes":  "https://helpx.adobe.com/security/products/coldfusion/apsb23-47.html"
+                            },
+                            {
+                                "cveID":  "CVE-2023-35078",
+                                "vendorProject":  "Ivanti",
+                                "product":  "Endpoint Manager Mobile",
+                                "vulnerabilityName":  "Ivanti Endpoint Manager Mobile Authentication Bypass Vulnerability",
+                                "dateAdded":  "2023-07-25",
+                                "shortDescription":  "Ivanti Endpoint Manager Mobile (EPMM, previously branded MobileIron Core) contains an authentication bypass vulnerability that allows unauthenticated access to specific API paths. An attacker with access to these API paths can access personally identifiable information (PII) such as names, phone numbers, and other mobile device details for users on a vulnerable system. An attacker can also make other configuration changes, including creating an EPMM administrative account that can make further changes to a vulnerable system.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-08-15",
+                                "notes":  "https://forums.ivanti.com/s/article/CVE-2023-35078-Remote-unauthenticated-API-access-vulnerability?language=en_US"
                             }
                         ]
 }
