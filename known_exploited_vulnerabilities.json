@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.07.26",
-    "dateReleased":  "2023-07-26T09:54:16.7663Z",
-    "count":  979,
+    "catalogVersion":  "2023.07.27",
+    "dateReleased":  "2023-07-27T09:46:48.3349Z",
+    "count":  980,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10772,6 +10772,17 @@
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-08-16",
                                 "notes":  "https://support.apple.com/en-us/HT213841, https://support.apple.com/en-us/HT213842, https://support.apple.com/en-us/HT213843,https://support.apple.com/en-us/HT213844,https://support.apple.com/en-us/HT213845,https://support.apple.com/en-us/HT213846,https://support.apple.com/en-us/HT213848"
+                            },
+                            {
+                                "cveID":  "CVE-2023-37580",
+                                "vendorProject":  "Zimbra",
+                                "product":  "Collaboration (ZCS)",
+                                "vulnerabilityName":  "Zimbra Collaboration (ZCS) Cross-Site Scripting (XSS) Vulnerability",
+                                "dateAdded":  "2023-07-27",
+                                "shortDescription":  "Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability impacting the confidentiality and integrity of data.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-08-17",
+                                "notes":  "https://wiki.zimbra.com/wiki/Security_Center"
                             }
                         ]
 }
