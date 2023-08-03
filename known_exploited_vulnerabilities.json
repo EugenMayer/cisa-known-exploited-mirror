@@ -1,7 +1,7 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.07.31",
-    "dateReleased":  "2023-07-31T10:05:03.0052Z",
+    "catalogVersion":  "2023.08.02",
+    "dateReleased":  "2023-08-02T14:11:52.3059Z",
     "count":  981,
     "vulnerabilities":  [
                             {
@@ -10705,7 +10705,7 @@
                                 "shortDescription":  "Apple iOS, iPadOS, macOS, and Safari WebKit contain an unspecified vulnerability that can allow an attacker to execute code when processing web content.",
                                 "requiredAction":  "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable.",
                                 "dueDate":  "2023-08-03",
-                                "notes":  "https://support.apple.com/en-us/HT213823"
+                                "notes":  "https://support.apple.com/en-us/HT213826, https://support.apple.com/en-us/HT213841, https://support.apple.com/en-us/HT213843, https://support.apple.com/en-us/HT213846, https://support.apple.com/en-us/HT213848"
                             },
                             {
                                 "cveID":  "CVE-2023-36884",
@@ -10757,7 +10757,7 @@
                                 "product":  "Endpoint Manager Mobile (EPMM)",
                                 "vulnerabilityName":  "Ivanti Endpoint Manager Mobile Authentication Bypass Vulnerability",
                                 "dateAdded":  "2023-07-25",
-                                "shortDescription":  "Ivanti Endpoint Manager Mobile (EPMM, previously branded MobileIron Core) contains an authentication bypass vulnerability that allows unauthenticated access to specific API paths. An attacker with access to these API paths can access personally identifiable information (PII) such as names, phone numbers, and other mobile device details for users on a vulnerable system. An attacker can also make other configuration changes, including creating an EPMM administrative account that can make further changes to a vulnerable system.",
+                                "shortDescription":  "Ivanti Endpoint Manager Mobile (EPMM, previously branded MobileIron Core) contains an authentication bypass vulnerability that allows unauthenticated access to specific API paths. An attacker with access to these API paths can access personally identifiable information (PII) such as names, phone numbers, and other mobile device details for users on a vulnerable system. An attacker can also make other configuration changes including installing software and modifying security profiles on registered devices.",
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-08-15",
                                 "notes":  "https://forums.ivanti.com/s/article/CVE-2023-35078-Remote-unauthenticated-API-access-vulnerability?language=en_US"
@@ -10790,7 +10790,7 @@
                                 "product":  "Endpoint Manager Mobile (EPMM)",
                                 "vulnerabilityName":  "Ivanti Endpoint Manager Mobile (EPMM) Path Traversal Vulnerability",
                                 "dateAdded":  "2023-07-31",
-                                "shortDescription":  "Ivanti Endpoint Manager Mobile (EPMM) contains a path traversal vulnerability that enables an authenticated administrator to perform malicious file writes to the EPMM server. This vulnerability can be used in conjunction with CVE-2023-35078, bypassing administrator authentication and ACLs restrictions (if applicable).",
+                                "shortDescription":  "Ivanti Endpoint Manager Mobile (EPMM) contains a path traversal vulnerability that enables an authenticated administrator to perform malicious file writes to the EPMM server. This vulnerability can be used in conjunction with CVE-2023-35078 to bypass authentication and ACLs restrictions (if applicable).",
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-08-21",
                                 "notes":  "https://forums.ivanti.com/s/article/CVE-2023-35081-Arbitrary-File-Write?language=en_US"
