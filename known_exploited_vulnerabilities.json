@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.08.02",
-    "dateReleased":  "2023-08-02T14:11:52.3059Z",
-    "count":  981,
+    "catalogVersion":  "2023.08.07",
+    "dateReleased":  "2023-08-07T11:49:59.5345Z",
+    "count":  982,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10794,6 +10794,17 @@
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-08-21",
                                 "notes":  "https://forums.ivanti.com/s/article/CVE-2023-35081-Arbitrary-File-Write?language=en_US"
+                            },
+                            {
+                                "cveID":  "CVE-2017-18368",
+                                "vendorProject":  "Zyxel",
+                                "product":  "P660HN-T1A Routers",
+                                "vulnerabilityName":  "Zyxel P660HN-T1A Routers Command Injection Vulnerability",
+                                "dateAdded":  "2023-08-07",
+                                "shortDescription":  "Zyxel P660HN-T1A routers contain a command injection vulnerability in the Remote System Log forwarding function, which is accessible by an unauthenticated user and exploited via the remote_host parameter of the ViewLog.asp page.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-08-28",
+                                "notes":  "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-a-new-variant-of-gafgyt-malware"
                             }
                         ]
 }
