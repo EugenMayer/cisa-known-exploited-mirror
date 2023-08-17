@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.08.09",
-    "dateReleased":  "2023-08-09T09:49:53.0210Z",
-    "count":  983,
+    "catalogVersion":  "2023.08.16",
+    "dateReleased":  "2023-08-16T11:12:38.4365Z",
+    "count":  984,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10710,13 +10710,13 @@
                             {
                                 "cveID":  "CVE-2023-36884",
                                 "vendorProject":  "Microsoft",
-                                "product":  "Office and Windows",
-                                "vulnerabilityName":  "Microsoft Office and Windows HTML Remote Code Execution Vulnerability",
+                                "product":  "Windows",
+                                "vulnerabilityName":  "Microsoft Windows Search Remote Code Execution Vulnerability",
                                 "dateAdded":  "2023-07-17",
-                                "shortDescription":  "Microsoft Office and Windows contain an unspecified vulnerability that allows an attacker to perform remote code execution via a specially crafted Microsoft Office document.",
-                                "requiredAction":  "Follow \"CVE-2023-36884 Specific Recommendations\" per vendor instructions. [https://www.microsoft.com/en-us/security/blog/2023/07/11/storm-0978-attacks-reveal-financial-and-espionage-motives/]",
+                                "shortDescription":  "Microsoft Windows Search contains an unspecified vulnerability that could allow an attacker to evade Mark of the Web (MOTW) defenses via a specially crafted malicious file, leading to remote code execution.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-08-07",
-                                "notes":  "Required actions will be modified if and when the vendor releases as an update addressing the vulnerability. https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884"
+                                "notes":  "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884"
                             },
                             {
                                 "cveID":  "CVE-2023-3519",
@@ -10810,12 +10810,23 @@
                                 "cveID":  "CVE-2023-38180",
                                 "vendorProject":  "Microsoft",
                                 "product":  ".NET Core and Visual Studio",
-                                "vulnerabilityName":  "Microsoft .NET Core and Visual Studio Denial of Service Vulnerability",
+                                "vulnerabilityName":  "Microsoft .NET Core and Visual Studio Denial-of-Service Vulnerability",
                                 "dateAdded":  "2023-08-09",
-                                "shortDescription":  "Microsoft .NET Core and Visual Studio contain an unspecified vulnerability that allows for denial of service.",
+                                "shortDescription":  "Microsoft .NET Core and Visual Studio contain an unspecified vulnerability that allows for denial-of-service.",
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-08-30",
                                 "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-38180"
+                            },
+                            {
+                                "cveID":  "CVE-2023-24489",
+                                "vendorProject":  "Citrix",
+                                "product":  "Content Collaboration",
+                                "vulnerabilityName":  "Citrix Content Collaboration ShareFile Improper Access Control Vulnerability",
+                                "dateAdded":  "2023-08-16",
+                                "shortDescription":  "Citrix Content Collaboration contains an improper access control vulnerability that could allow an unauthenticated attacker to remotely compromise customer-managed ShareFile storage zones controllers.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-09-06",
+                                "notes":  "https://support.citrix.com/article/CTX559517/sharefile-storagezones-controller-security-update-for-cve202324489"
                             }
                         ]
 }
