@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.08.16",
-    "dateReleased":  "2023-08-16T11:12:38.4365Z",
-    "count":  984,
+    "catalogVersion":  "2023.08.21",
+    "dateReleased":  "2023-08-21T11:43:47.7072Z",
+    "count":  985,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10715,7 +10715,7 @@
                                 "dateAdded":  "2023-07-17",
                                 "shortDescription":  "Microsoft Windows Search contains an unspecified vulnerability that could allow an attacker to evade Mark of the Web (MOTW) defenses via a specially crafted malicious file, leading to remote code execution.",
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2023-08-07",
+                                "dueDate":  "2023-08-29",
                                 "notes":  "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884"
                             },
                             {
@@ -10827,6 +10827,17 @@
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-09-06",
                                 "notes":  "https://support.citrix.com/article/CTX559517/sharefile-storagezones-controller-security-update-for-cve202324489"
+                            },
+                            {
+                                "cveID":  "CVE-2023-26359",
+                                "vendorProject":  "Adobe",
+                                "product":  "ColdFusion",
+                                "vulnerabilityName":  "Adobe ColdFusion Deserialization of Untrusted Data Vulnerability",
+                                "dateAdded":  "2023-08-21",
+                                "shortDescription":  "Adobe ColdFusion contains a deserialization of untrusted data vulnerability that could result in code execution in the context of the current user.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-09-11",
+                                "notes":  "https://helpx.adobe.com/security/products/coldfusion/apsb23-25.html"
                             }
                         ]
 }
