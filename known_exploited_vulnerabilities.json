@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.08.22",
-    "dateReleased":  "2023-08-22T09:56:44.7661Z",
-    "count":  987,
+    "catalogVersion":  "2023.08.24",
+    "dateReleased":  "2023-08-24T09:48:48.1977Z",
+    "count":  989,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10845,7 +10845,7 @@
                                 "product":  "Sentry",
                                 "vulnerabilityName":  "Ivanti Sentry Authentication Bypass Vulnerability",
                                 "dateAdded":  "2023-08-22",
-                                "shortDescription":  "Ivanti Sentry, formerly known as MobileIron Sentry, contains an authentication bypass vulnerability which may allow an attacker to bypass authentication controls on the administrative interface due to an insufficiently restrictive Apache HTTPD configuration.",
+                                "shortDescription":  "Ivanti Sentry, formerly known as MobileIron Sentry, contains an authentication bypass vulnerability that may allow an attacker to bypass authentication controls on the administrative interface due to an insufficiently restrictive Apache HTTPD configuration.",
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-09-12",
                                 "notes":  "https://forums.ivanti.com/s/article/CVE-2023-38035-API-Authentication-Bypass-on-Sentry-Administrator-Interface?language=en_US"
@@ -10860,6 +10860,28 @@
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-09-12",
                                 "notes":  "https://www.veeam.com/kb4424"
+                            },
+                            {
+                                "cveID":  "CVE-2023-38831",
+                                "vendorProject":  "RARLAB",
+                                "product":  "WinRAR",
+                                "vulnerabilityName":  "RARLAB WinRAR Code Execution Vulnerability",
+                                "dateAdded":  "2023-08-24",
+                                "shortDescription":  "RARLAB WinRAR contains an unspecified vulnerability that allows an attacker to execute code when a user attempts to view a benign file within a ZIP archive.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-09-14",
+                                "notes":  "http://www.win-rar.com/singlenewsview.html?\u0026L=0\u0026tx_ttnews%5Btt_news%5D=232\u0026cHash=c5bf79590657e32554c6683296a8e8aa"
+                            },
+                            {
+                                "cveID":  "CVE-2023-32315",
+                                "vendorProject":  "Ignite Realtime",
+                                "product":  "Openfire",
+                                "vulnerabilityName":  "Ignite Realtime Openfire Path Traversal Vulnerability",
+                                "dateAdded":  "2023-08-24",
+                                "shortDescription":  "Ignite Realtime Openfire contains a path traversal vulnerability that allows an unauthenticated attacker to access restricted pages in the Openfire Admin Console reserved for administrative users.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-09-14",
+                                "notes":  "https://www.igniterealtime.org/downloads/#openfire"
                             }
                         ]
 }
