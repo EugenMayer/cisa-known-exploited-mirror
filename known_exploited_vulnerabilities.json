@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.08.24",
-    "dateReleased":  "2023-08-24T09:48:48.1977Z",
-    "count":  989,
+    "catalogVersion":  "2023.09.06",
+    "dateReleased":  "2023-09-06T10:00:01.1587Z",
+    "count":  990,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10882,6 +10882,17 @@
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-09-14",
                                 "notes":  "https://www.igniterealtime.org/downloads/#openfire"
+                            },
+                            {
+                                "cveID":  "CVE-2023-33246",
+                                "vendorProject":  "Apache",
+                                "product":  "RocketMQ",
+                                "vulnerabilityName":  "Apache RocketMQ Command Execution Vulnerability",
+                                "dateAdded":  "2023-09-06",
+                                "shortDescription":  "Several components of Apache RocketMQ, including NameServer, Broker, and Controller, are exposed to the extranet and lack permission verification. An attacker can exploit this vulnerability by using the update configuration function to execute commands as the system users that RocketMQ is running as or achieve the same effect by forging the RocketMQ protocol content.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-09-27",
+                                "notes":  "https://lists.apache.org/thread/1s8j2c8kogthtpv3060yddk03zq0pxyp"
                             }
                         ]
 }
