@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.09.06",
-    "dateReleased":  "2023-09-06T10:00:01.1587Z",
-    "count":  990,
+    "catalogVersion":  "2023.09.11",
+    "dateReleased":  "2023-09-11T09:59:17.9155Z",
+    "count":  992,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -8907,7 +8907,7 @@
                                 "cveID":  "CVE-2021-31010",
                                 "vendorProject":  "Apple",
                                 "product":  "iOS, macOS, watchOS",
-                                "vulnerabilityName":  "Apple iOS, macOS, watchOS Sanbox Bypass Vulnerability",
+                                "vulnerabilityName":  "Apple iOS, macOS, watchOS Sandbox Bypass Vulnerability",
                                 "dateAdded":  "2022-08-25",
                                 "shortDescription":  "In affected versions of Apple iOS, macOS, and watchOS, a sandboxed process may be able to circumvent sandbox restrictions.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
@@ -10893,6 +10893,28 @@
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-09-27",
                                 "notes":  "https://lists.apache.org/thread/1s8j2c8kogthtpv3060yddk03zq0pxyp"
+                            },
+                            {
+                                "cveID":  "CVE-2023-41064",
+                                "vendorProject":  "Apple",
+                                "product":  "iOS, iPadOS, and macOS",
+                                "vulnerabilityName":  "Apple iOS, iPadOS, and macOS ImageIO Buffer Overflow Vulnerability",
+                                "dateAdded":  "2023-09-11",
+                                "shortDescription":  "Apple iOS, iPadOS, and macOS contain a buffer overflow vulnerability in ImageIO when processing a maliciously crafted image, which may lead to code execution. This vulnerability was chained with CVE-2023-41061.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-02",
+                                "notes":  "https://support.apple.com/en-us/HT213905, https://support.apple.com/en-us/HT213906"
+                            },
+                            {
+                                "cveID":  "CVE-2023-41061",
+                                "vendorProject":  "Apple",
+                                "product":  "iOS, iPadOS, and watchOS",
+                                "vulnerabilityName":  "Apple iOS, iPadOS, and watchOS Wallet Code Execution Vulnerability",
+                                "dateAdded":  "2023-09-11",
+                                "shortDescription":  "Apple iOS, iPadOS, and watchOS contain an unspecified vulnerability due to a validation issue affecting Wallet in which a maliciously crafted attachment may result in code execution. This vulnerability was chained with CVE-2023-41064.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-02",
+                                "notes":  "https://support.apple.com/en-us/HT213905, https://support.apple.com/kb/HT213907"
                             }
                         ]
 }
