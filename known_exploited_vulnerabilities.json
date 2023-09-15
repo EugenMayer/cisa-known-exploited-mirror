@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.09.13",
-    "dateReleased":  "2023-09-13T11:33:09.8290Z",
-    "count":  997,
+    "catalogVersion":  "2023.09.14",
+    "dateReleased":  "2023-09-14T12:32:24.0698Z",
+    "count":  998,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10963,13 +10963,24 @@
                             {
                                 "cveID":  "CVE-2023-4863",
                                 "vendorProject":  "Google",
-                                "product":  "Chromium",
-                                "vulnerabilityName":  "Google Chromium Heap-Based Buffer Overflow Vulnerability",
+                                "product":  "Chromium WebP",
+                                "vulnerabilityName":  "Google Chromium WebP Heap-Based Buffer Overflow Vulnerability",
                                 "dateAdded":  "2023-09-13",
-                                "shortDescription":  "Google Chromium contains a heap-based buffer overflow vulnerability in WebP that allows a remote attacker to perform an out-of-bounds memory write via a crafted HTML page.",
+                                "shortDescription":  "Google Chromium WebP contains a heap-based buffer overflow vulnerability that allows a remote attacker to perform an out-of-bounds memory write via a crafted HTML page. This vulnerability can affect applications that use the WebP Codec.",
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-10-04",
                                 "notes":  "https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop_11.html?m=1"
+                            },
+                            {
+                                "cveID":  "CVE-2023-26369",
+                                "vendorProject":  "Adobe",
+                                "product":  "Acrobat and Reader",
+                                "vulnerabilityName":  "Adobe Acrobat and Reader Out-of-Bounds Write Vulnerability",
+                                "dateAdded":  "2023-09-14",
+                                "shortDescription":  "Adobe Acrobat and Reader contains an out-of-bounds write vulnerability that allows for code execution.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-05",
+                                "notes":  "https://helpx.adobe.com/security/products/acrobat/apsb23-34.html"
                             }
                         ]
 }
