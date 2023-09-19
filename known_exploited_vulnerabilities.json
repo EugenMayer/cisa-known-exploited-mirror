@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.09.14",
-    "dateReleased":  "2023-09-14T12:32:24.0698Z",
-    "count":  998,
+    "catalogVersion":  "2023.09.18",
+    "dateReleased":  "2023-09-18T09:45:05.2900Z",
+    "count":  1006,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -10981,6 +10981,94 @@
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-10-05",
                                 "notes":  "https://helpx.adobe.com/security/products/acrobat/apsb23-34.html"
+                            },
+                            {
+                                "cveID":  "CVE-2022-22265",
+                                "vendorProject":  "Samsung",
+                                "product":  "Mobile Devices",
+                                "vulnerabilityName":  "Samsung Mobile Devices Use-After-Free Vulnerability",
+                                "dateAdded":  "2023-09-18",
+                                "shortDescription":  "Samsung devices with selected Exynos chipsets contain a use-after-free vulnerability that allows malicious memory write and code execution.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-09",
+                                "notes":  "https://security.samsungmobile.com/securityUpdate.smsb?year=2022\u0026month=1"
+                            },
+                            {
+                                "cveID":  "CVE-2014-8361",
+                                "vendorProject":  "Realtek",
+                                "product":  "SDK",
+                                "vulnerabilityName":  "Realtek SDK Improper Input Validation Vulnerability",
+                                "dateAdded":  "2023-09-18",
+                                "shortDescription":  "Realtek SDK contains an improper input validation vulnerability in the miniigd SOAP service that allows remote attackers to execute malicious code via a crafted NewInternalClient request.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-09",
+                                "notes":  "https://web.archive.org/web/20150831100501/http://securityadvisories.dlink.com/security/publication.aspx?name=SAP10055"
+                            },
+                            {
+                                "cveID":  "CVE-2017-6884",
+                                "vendorProject":  "Zyxel",
+                                "product":  "EMG2926 Routers",
+                                "vulnerabilityName":  "Zyxel EMG2926 Routers Command Injection Vulnerability",
+                                "dateAdded":  "2023-09-18",
+                                "shortDescription":  "Zyxel EMG2926 routers contain a command injection vulnerability located in the diagnostic tools, specifically the nslookup function. A malicious user may exploit numerous vectors to execute malicious commands on the router, such as the ping_ip parameter to the expert/maintenance/diagnostic/nslookup URI.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-09",
+                                "notes":  "https://www.zyxelguard.com/Zyxel-EOL.asp"
+                            },
+                            {
+                                "cveID":  "CVE-2021-3129",
+                                "vendorProject":  "Laravel",
+                                "product":  "Ignition",
+                                "vulnerabilityName":  "Laravel Ignition File Upload Vulnerability",
+                                "dateAdded":  "2023-09-18",
+                                "shortDescription":  "Laravel Ignition contains a file upload vulnerability that allows unauthenticated remote attackers to execute malicious code due to insecure usage of file_get_contents() and file_put_contents().",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-09",
+                                "notes":  "https://github.com/facade/ignition/releases/tag/2.5.2"
+                            },
+                            {
+                                "cveID":  "CVE-2022-31459",
+                                "vendorProject":  "Owl Labs",
+                                "product":  "Meeting Owl",
+                                "vulnerabilityName":  "Owl Labs Meeting Owl Inadequate Encryption Strength Vulnerability",
+                                "dateAdded":  "2023-09-18",
+                                "shortDescription":  "Owl Labs Meeting Owl contains an inadequate encryption strength vulnerability that allows an attacker to retrieve the passcode hash via a certain c 10 value over Bluetooth.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-09",
+                                "notes":  "https://resources.owllabs.com/blog/owl-labs-update#:~:text=Update%20as%20of%20June%2023%2C%202022"
+                            },
+                            {
+                                "cveID":  "CVE-2022-31461",
+                                "vendorProject":  "Owl Labs",
+                                "product":  "Meeting Owl",
+                                "vulnerabilityName":  "Owl Labs Meeting Owl Missing Authentication for Critical Function Vulnerability",
+                                "dateAdded":  "2023-09-18",
+                                "shortDescription":  "Owl Labs Meeting Owl contains a missing authentication for critical functions vulnerability that allows an attacker to deactivate the passcode protection mechanism via a certain c 11 message.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-09",
+                                "notes":  "https://resources.owllabs.com/blog/owl-labs-update#:~:text=Update%20as%20of%20June%2023%2C%202022"
+                            },
+                            {
+                                "cveID":  "CVE-2022-31462",
+                                "vendorProject":  "Owl Labs",
+                                "product":  "Meeting Owl",
+                                "vulnerabilityName":  "Owl Labs Meeting Owl Use of Hard-coded Credentials Vulnerability",
+                                "dateAdded":  "2023-09-18",
+                                "shortDescription":  "Owl Labs Meeting Owl contains a use of hard-coded credentials vulnerability that allows an attacker to control the device via a backdoor password (derived from the serial number) that can be found in Bluetooth broadcast data.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-09",
+                                "notes":  "https://resources.owllabs.com/blog/owl-labs-update#:~:text=Update%20as%20of%20June%2023%2C%202022"
+                            },
+                            {
+                                "cveID":  "CVE-2022-31463",
+                                "vendorProject":  "Owl Labs",
+                                "product":  "Meeting Owl",
+                                "vulnerabilityName":  "Owl Labs Meeting Owl Improper Authentication Vulnerability",
+                                "dateAdded":  "2023-09-18",
+                                "shortDescription":  "Owl Labs Meeting Owl contains an improper authentication vulnerability that does not require a password for Bluetooth commands, as only client-side authentication is used.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-09",
+                                "notes":  "https://resources.owllabs.com/blog/owl-labs-update#:~:text=Update%20as%20of%20June%2023%2C%202022"
                             }
                         ]
 }
