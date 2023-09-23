@@ -1,7 +1,7 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.09.21",
-    "dateReleased":  "2023-09-21T09:41:54.0388Z",
+    "catalogVersion":  "2023.09.22",
+    "dateReleased":  "2023-09-22T16:15:24.7033Z",
     "count":  1008,
     "vulnerabilities":  [
                             {
@@ -11034,8 +11034,8 @@
                                 "dateAdded":  "2023-09-18",
                                 "shortDescription":  "Owl Labs Meeting Owl contains an inadequate encryption strength vulnerability that allows an attacker to retrieve the passcode hash via a certain c 10 value over Bluetooth.",
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2023-10-09",
-                                "notes":  "https://resources.owllabs.com/blog/owl-labs-update#:~:text=Update%20as%20of%20June%2023%2C%202022"
+                                "dueDate":  "2023-10-16",
+                                "notes":  "This CVE is currently under review status. The Due Date for remediation has been extended a week to conduct this review. https://resources.owllabs.com/blog/owl-labs-update"
                             },
                             {
                                 "cveID":  "CVE-2022-31461",
@@ -11045,8 +11045,8 @@
                                 "dateAdded":  "2023-09-18",
                                 "shortDescription":  "Owl Labs Meeting Owl contains a missing authentication for critical functions vulnerability that allows an attacker to deactivate the passcode protection mechanism via a certain c 11 message.",
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2023-10-09",
-                                "notes":  "https://resources.owllabs.com/blog/owl-labs-update#:~:text=Update%20as%20of%20June%2023%2C%202022"
+                                "dueDate":  "2023-10-16",
+                                "notes":  "This CVE is currently under review status. The Due Date for remediation has been extended a week to conduct this review. https://resources.owllabs.com/blog/owl-labs-update"
                             },
                             {
                                 "cveID":  "CVE-2022-31462",
@@ -11056,8 +11056,8 @@
                                 "dateAdded":  "2023-09-18",
                                 "shortDescription":  "Owl Labs Meeting Owl contains a use of hard-coded credentials vulnerability that allows an attacker to control the device via a backdoor password (derived from the serial number) that can be found in Bluetooth broadcast data.",
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2023-10-09",
-                                "notes":  "https://resources.owllabs.com/blog/owl-labs-update#:~:text=Update%20as%20of%20June%2023%2C%202022"
+                                "dueDate":  "2023-10-16",
+                                "notes":  "This CVE is currently under review status. The Due Date for remediation has been extended a week to conduct this review. https://resources.owllabs.com/blog/owl-labs-update"
                             },
                             {
                                 "cveID":  "CVE-2022-31463",
@@ -11067,8 +11067,8 @@
                                 "dateAdded":  "2023-09-18",
                                 "shortDescription":  "Owl Labs Meeting Owl contains an improper authentication vulnerability that does not require a password for Bluetooth commands, as only client-side authentication is used.",
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2023-10-09",
-                                "notes":  "https://resources.owllabs.com/blog/owl-labs-update#:~:text=Update%20as%20of%20June%2023%2C%202022"
+                                "dueDate":  "2023-10-16",
+                                "notes":  "This CVE is currently under review status. The Due Date for remediation has been extended a week to conduct this review. https://resources.owllabs.com/blog/owl-labs-update"
                             },
                             {
                                 "cveID":  "CVE-2023-28434",
@@ -11084,7 +11084,7 @@
                             {
                                 "cveID":  "CVE-2023-41179",
                                 "vendorProject":  "Trend Micro",
-                                "product":  "Trend Micro Apex One and Worry-Free Business Security",
+                                "product":  "Apex One and Worry-Free Business Security",
                                 "vulnerabilityName":  "Trend Micro Apex One and Worry-Free Business Security Remote Code Execution Vulnerability",
                                 "dateAdded":  "2023-09-21",
                                 "shortDescription":  "Trend Micro Apex One and Worry-Free Business Security contain an unspecified vulnerability in the third-party anti-virus uninstaller that could allow an attacker to manipulate the module to conduct remote code execution. An attacker must first obtain administrative console access on the target system in order to exploit this vulnerability.",
