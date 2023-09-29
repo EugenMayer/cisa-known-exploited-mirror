@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.09.25",
-    "dateReleased":  "2023-09-25T09:45:53.1270Z",
-    "count":  1011,
+    "catalogVersion":  "2023.09.28",
+    "dateReleased":  "2023-09-28T09:51:49.8603Z",
+    "count":  1012,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -11124,6 +11124,17 @@
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-10-16",
                                 "notes":  "https://support.apple.com/en-us/HT213926, https://support.apple.com/en-us/HT213927, https://support.apple.com/en-us/HT213930"
+                            },
+                            {
+                                "cveID":  "CVE-2018-14667",
+                                "vendorProject":  "Red Hat",
+                                "product":  "JBoss RichFaces Framework",
+                                "vulnerabilityName":  "Red Hat JBoss RichFaces Framework Expression Language Injection Vulnerability",
+                                "dateAdded":  "2023-09-28",
+                                "shortDescription":  "Red Hat JBoss RichFaces Framework contains an expression language injection vulnerability via the UserResource resource. A remote, unauthenticated attacker could exploit this vulnerability to execute malicious code using a chain of Java serialized objects via org.ajax4jsf.resource.UserResource$UriData.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-19",
+                                "notes":  "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-14667"
                             }
                         ]
 }
