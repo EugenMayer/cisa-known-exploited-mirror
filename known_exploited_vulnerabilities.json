@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.09.28",
-    "dateReleased":  "2023-09-28T09:51:49.8603Z",
-    "count":  1012,
+    "catalogVersion":  "2023.10.02",
+    "dateReleased":  "2023-10-02T09:50:54.4547Z",
+    "count":  1013,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -2382,7 +2382,7 @@
                             },
                             {
                                 "cveID":  "CVE-2019-18935",
-                                "vendorProject":  "Progess",
+                                "vendorProject":  "Progress",
                                 "product":  "Telerik UI for ASP.NET AJAX",
                                 "vulnerabilityName":  "Progress Telerik UI for ASP.NET AJAX Deserialization of Untrusted Data Vulnerability",
                                 "dateAdded":  "2021-11-03",
@@ -11135,6 +11135,17 @@
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-10-19",
                                 "notes":  "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-14667"
+                            },
+                            {
+                                "cveID":  "CVE-2023-5217",
+                                "vendorProject":  "Google",
+                                "product":  "Chrome libvpx",
+                                "vulnerabilityName":  "Google Chrome libvpx Heap Buffer Overflow Vulnerability",
+                                "dateAdded":  "2023-10-02",
+                                "shortDescription":  "Google Chrome libvpx contains a heap buffer overflow vulnerability in vp8 encoding that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-23",
+                                "notes":  "https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop_27.html"
                             }
                         ]
 }
