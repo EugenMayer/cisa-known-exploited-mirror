@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.10.03",
-    "dateReleased":  "2023-10-03T09:49:11.0418Z",
-    "count":  1014,
+    "catalogVersion":  "2023.10.04",
+    "dateReleased":  "2023-10-04T09:43:05.1253Z",
+    "count":  1011,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -120,7 +120,7 @@
                                 "product":  "Android Kernel",
                                 "vulnerabilityName":  "Android Kernel Use-After-Free Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Android Kernel contains a use-after-free vulnerability in binder.c which allows for privilege escalation from an application to the Linux Kernel. This vulnerability was observed chained with CVE-2020-0041 and CVE-2020-0069 under exploit chain \"AbstractEmu.\"",
+                                "shortDescription":  "Android Kernel contains a use-after-free vulnerability in binder.c that allows for privilege escalation from an application to the Linux Kernel. This vulnerability was observed chained with CVE-2020-0041 and CVE-2020-0069 under exploit chain \"AbstractEmu.\"",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -164,7 +164,7 @@
                                 "product":  "HTTP Server",
                                 "vulnerabilityName":  "Apache HTTP Server Path Traversal Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Apache HTTP Server contains a path traversal vulnerability which allows an attacker to perform remote code execution if files outside directories configured by Alias-like directives are not under default �require all denied� or if CGI scripts are enabled. This CVE ID resolves an incomplete patch for CVE-2021-41773.",
+                                "shortDescription":  "Apache HTTP Server contains a path traversal vulnerability that allows an attacker to perform remote code execution if files outside directories configured by Alias-like directives are not under default �require all denied� or if CGI scripts are enabled. This CVE ID resolves an incomplete patch for CVE-2021-41773.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -175,7 +175,7 @@
                                 "product":  "HTTP Server",
                                 "vulnerabilityName":  "Apache HTTP Server Path Traversal Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Apache HTTP Server contains a path traversal vulnerability which allows an attacker to perform remote code execution if files outside directories configured by Alias-like directives are not under default �require all denied� or if CGI scripts are enabled. The original patch issued under this CVE ID is insufficient, please review remediation information under CVE-2021-42013.",
+                                "shortDescription":  "Apache HTTP Server contains a path traversal vulnerability that allows an attacker to perform remote code execution if files outside directories configured by Alias-like directives are not under default �require all denied� or if CGI scripts are enabled. The original patch issued under this CVE ID is insufficient, please review remediation information under CVE-2021-42013.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -241,7 +241,7 @@
                                 "product":  "Struts",
                                 "vulnerabilityName":  "Apache Struts Remote Code Execution Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Apache Struts contains a vulnerability which allows for remote code execution under two circumstances. One, where the alwaysSelectFullNamespace option is true and the value isn\u0027t set for a result defined in underlying configurations and in same time, its upper package configuration have no or wildcard namespace.  Or, using URL tag which doesn�t have value and action set and in same time, its upper package configuration have no or wildcard namespace.",
+                                "shortDescription":  "Apache Struts contains a vulnerability that allows for remote code execution under two circumstances. One, where the alwaysSelectFullNamespace option is true and the value isn\u0027t set for a result defined in underlying configurations and in same time, its upper package configuration have no or wildcard namespace.  Or, using URL tag which doesn�t have value and action set and in same time, its upper package configuration have no or wildcard namespace.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -857,7 +857,7 @@
                                 "product":  "Multiple Vigor Routers",
                                 "vulnerabilityName":  "Multiple DrayTek Vigor Routers Web Management Page Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "DrayTek Vigor3900, Vigor2960, and Vigor300B routers contain an unspecified vulnerability which allows for remote code execution.",
+                                "shortDescription":  "DrayTek Vigor3900, Vigor2960, and Vigor300B routers contain an unspecified vulnerability that allows for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -989,7 +989,7 @@
                                 "product":  "Chrome",
                                 "vulnerabilityName":  "Google Chrome for Android Heap Buffer Overflow Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chrome for Android contains a heap buffer overflow vulnerability which allows a remote attacker, who had compromised the renderer process, to potentially perform a sandbox escape via a crafted HTML page.",
+                                "shortDescription":  "Google Chrome for Android contains a heap buffer overflow vulnerability that allows a remote attacker, who had compromised the renderer process, to potentially perform a sandbox escape via a crafted HTML page.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -1044,7 +1044,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Type Confusion Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium V8 Engine contains a type confusion vulnerability which allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium V8 Engine contains a type confusion vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -1055,7 +1055,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Out-of-Bounds Write Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium V8 Engine contains an out-of-bounds write vulnerability which allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium V8 Engine contains an out-of-bounds write vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1066,7 +1066,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Incorrect Implementation Vulnerabililty",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium V8 Engine contains an incorrect implementation vulnerability which allows a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+                                "shortDescription":  "Google Chromium V8 Engine contains an incorrect implementation vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -1077,7 +1077,7 @@
                                 "product":  "Chromium",
                                 "vulnerabilityName":  "Google Chromium Indexed DB API Use-After-Free Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium Indexed DB API contains a use-after-free vulnerability which allows a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium Indexed DB API contains a use-after-free vulnerability that allows a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1088,7 +1088,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Heap Buffer Overflow Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium V8 Engine contains a heap buffer overflow vulnerability which allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium V8 Engine contains a heap buffer overflow vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1099,7 +1099,7 @@
                                 "product":  "Chromium",
                                 "vulnerabilityName":  "Google Chromium Use-After-Free Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium Portals contains a use-after-free vulnerability which allows a remote attacker, who had compromised the renderer process, to potentially perform a sandbox escape via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium Portals contains a use-after-free vulnerability that allows a remote attacker, who had compromised the renderer process, to potentially perform a sandbox escape via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1110,7 +1110,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Type Confusion Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium V8 Engine contains a type confusion vulnerability which allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium V8 Engine contains a type confusion vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1121,7 +1121,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Use-After-Free Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium V8 Engine contains a use-after-free vulnerability which allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium V8 Engine contains a use-after-free vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1143,7 +1143,7 @@
                                 "product":  "Chromium",
                                 "vulnerabilityName":  "Google Chromium Use-After-Free Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium WebGL contains a use-after-free vulnerability which allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium WebGL contains a use-after-free vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1154,7 +1154,7 @@
                                 "product":  "Chromium",
                                 "vulnerabilityName":  "Google Chromium Use-After-Free Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium Blink contains a use-after-free vulnerability which allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium Blink contains a use-after-free vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1165,7 +1165,7 @@
                                 "product":  "Chromium",
                                 "vulnerabilityName":  "Google Chromium Improper Input Validation Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium Intents contains an improper input validation vulnerability which allows a remote attacker to arbitrarily browser to a malicious URL via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium Intents contains an improper input validation vulnerability that allows a remote attacker to arbitrarily browser to a malicious URL via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1187,7 +1187,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Type Confusion Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium V8 Engine contains a type confusion vulnerability which allows a remote attacker to execute code inside a sandbox via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium V8 Engine contains a type confusion vulnerability that allows a remote attacker to execute code inside a sandbox via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1198,7 +1198,7 @@
                                 "product":  "Chromium",
                                 "vulnerabilityName":  "Google Chromium Blink Use-After-Free Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium Blink contains a use-after-free vulnerability which allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium Blink contains a use-after-free vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1209,7 +1209,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Improper Input Validation Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium V8 Engine contains an improper input validation vulnerability which allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium V8 Engine contains an improper input validation vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1220,7 +1220,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Type Confusion Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Google Chromium V8 Engine contains a type confusion vulnerability which allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
+                                "shortDescription":  "Google Chromium V8 Engine contains a type confusion vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1286,7 +1286,7 @@
                                 "product":  "ImageMagick",
                                 "vulnerabilityName":  "ImageMagick Server-Side Request Forgery (SSRF) Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "ImageMagick contains an unspecified vulnerability which allows attackers to perform server-side request forgery (SSRF) via a crafted image.",
+                                "shortDescription":  "ImageMagick contains an unspecified vulnerability that allows attackers to perform server-side request forgery (SSRF) via a crafted image.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -1297,7 +1297,7 @@
                                 "product":  "MobileIron Multiple Products",
                                 "vulnerabilityName":  "Ivanti MobileIron Multiple Products Remote Code Execution Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Ivanti MobileIron\u0027s Core \u0026 Connector, Sentry, and Monitor and Reporting Database (RDB) products contain an unspecified vulnerability which allows for remote code execution.",
+                                "shortDescription":  "Ivanti MobileIron\u0027s Core \u0026 Connector, Sentry, and Monitor and Reporting Database (RDB) products contain an unspecified vulnerability that allows for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -1407,7 +1407,7 @@
                                 "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows Kernel Information Disclosure Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Microsoft Windows Kernel contains an unspecified vulnerability which allows for information disclosure. Successful exploitation allows attackers to read the contents of kernel memory from a user-mode process.",
+                                "shortDescription":  "Microsoft Windows Kernel contains an unspecified vulnerability that allows for information disclosure. Successful exploitation allows attackers to read the contents of kernel memory from a user-mode process.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1671,7 +1671,7 @@
                                 "product":  "Remote Desktop Services",
                                 "vulnerabilityName":  "Microsoft Remote Desktop Services Remote Code Execution Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Microsoft Remote Desktop Services, formerly known as Terminal Service, contains an unspecified vulnerability which allows an unauthenticated attacker to connect to the target system using RDP and send specially crafted requests. Successful exploitation allows for remote code execution. The vulnerability is also known under the moniker of BlueKeep.",
+                                "shortDescription":  "Microsoft Remote Desktop Services, formerly known as Terminal Service, contains an unspecified vulnerability that allows an unauthenticated attacker to connect to the target system using RDP and send specially crafted requests. Successful exploitation allows for remote code execution. The vulnerability is also known under the moniker of BlueKeep.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -1781,7 +1781,7 @@
                                 "product":  "Internet Explorer",
                                 "vulnerabilityName":  "Microsoft Internet Explorer Memory Corruption Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Microsoft Internet Explorer contains an unspecified vulnerability which allows for memory corruption.",
+                                "shortDescription":  "Microsoft Internet Explorer contains an unspecified vulnerability that allows for memory corruption.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1803,7 +1803,7 @@
                                 "product":  "MSHTML",
                                 "vulnerabilityName":  "Microsoft MSHTML Remote Code Execution Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Microsoft MSHTML contains a unspecified vulnerability which allows for remote code execution.",
+                                "shortDescription":  "Microsoft MSHTML contains a unspecified vulnerability that allows for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -1924,7 +1924,7 @@
                                 "product":  "MSHTML",
                                 "vulnerabilityName":  "Microsoft MSHTML Remote Code Execution Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Microsoft MSHTML engine contains an improper input validation vulnerability which allows for remote code execution vulnerability.",
+                                "shortDescription":  "Microsoft MSHTML engine contains an improper input validation vulnerability that allows for remote code execution vulnerability.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -2210,7 +2210,7 @@
                                 "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability which allows for privilege escalation.",
+                                "shortDescription":  "Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability that allows for privilege escalation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -2287,7 +2287,7 @@
                                 "product":  "WF2419 Devices",
                                 "vulnerabilityName":  "Netis WF2419 Devices Remote Code Execution Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Netis WF2419 devices contains an unspecified vulnerability which allows an attacker to perform remote code execution as root through the router\u0027s web management page.",
+                                "shortDescription":  "Netis WF2419 devices contains an unspecified vulnerability that allows an attacker to perform remote code execution as root through the router\u0027s web management page.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -2507,7 +2507,7 @@
                                 "product":  "rConfig",
                                 "vulnerabilityName":  "rConfig OS Command Injection Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "rConfig lib/ajaxHandlers/ajaxAddTemplate.php contains an OS command injection vulnerability which allows remote attackers to execute OS commands via shell metacharacters in the fileName POST parameter.",
+                                "shortDescription":  "rConfig lib/ajaxHandlers/ajaxAddTemplate.php contains an OS command injection vulnerability that allows remote attackers to execute OS commands via shell metacharacters in the fileName POST parameter.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -2683,7 +2683,7 @@
                                 "product":  "Nexus Repository",
                                 "vulnerabilityName":  "Sonatype Nexus Repository Remote Code Execution Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Sonatype Nexus Repository contains an unspecified vulnerability which allows for remote code execution.",
+                                "shortDescription":  "Sonatype Nexus Repository contains an unspecified vulnerability that allows for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -2694,7 +2694,7 @@
                                 "product":  "SonicWall Email Security",
                                 "vulnerabilityName":  "SonicWall Email Security Improper Privilege Management Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "SonicWall Email Security contains an improper privilege management vulnerability which allows an attacker to create an administrative account by sending a crafted HTTP request to the remote host. This vulnerability has known usage in a SonicWall Email Security exploit chain along with CVE-2021-20022 and CVE-2021-20023 to achieve privilege escalation.",
+                                "shortDescription":  "SonicWall Email Security contains an improper privilege management vulnerability that allows an attacker to create an administrative account by sending a crafted HTTP request to the remote host. This vulnerability has known usage in a SonicWall Email Security exploit chain along with CVE-2021-20022 and CVE-2021-20023 to achieve privilege escalation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -2738,7 +2738,7 @@
                                 "product":  "SSLVPN SMA100",
                                 "vulnerabilityName":  "SonicWall SSLVPN SMA100 SQL Injection Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "SonicWall SSLVPN SMA100 contains a SQL injection vulnerability which allows remote exploitation for credential access by an unauthenticated attacker.",
+                                "shortDescription":  "SonicWall SSLVPN SMA100 contains a SQL injection vulnerability that allows remote exploitation for credential access by an unauthenticated attacker.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2021-11-17",
                                 "notes":  ""
@@ -2815,7 +2815,7 @@
                                 "product":  "AC1900 Router AC15 Model",
                                 "vulnerabilityName":  "Tenda AC1900 Router AC15 Model Remote Code Execution Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "Tenda AC1900 Router AC15 Model contains an unspecified vulnerability which allows remote attackers to execute system commands via the deviceName POST parameter.",
+                                "shortDescription":  "Tenda AC1900 Router AC15 Model contains an unspecified vulnerability that allows remote attackers to execute system commands via the deviceName POST parameter.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -2837,7 +2837,7 @@
                                 "product":  "noneCms",
                                 "vulnerabilityName":  "ThinkPHP \"noneCms\" Remote Code Execution Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "ThinkPHP \"noneCms\" contains an unspecified vulnerability which allows for remote code execution through crafted use of the filter parameter.",
+                                "shortDescription":  "ThinkPHP \"noneCms\" contains an unspecified vulnerability that allows for remote code execution through crafted use of the filter parameter.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -2848,7 +2848,7 @@
                                 "product":  "ThinkPHP",
                                 "vulnerabilityName":  "ThinkPHP Remote Code Execution Vulnerability",
                                 "dateAdded":  "2021-11-03",
-                                "shortDescription":  "ThinkPHP contains an unspecified vulnerability which allows for remote code execution via public//?s=index/\\think\\app/invokefunction\u0026function=call_user_func_array\u0026vars[0]=system\u0026vars[1][]= followed by the command.",
+                                "shortDescription":  "ThinkPHP contains an unspecified vulnerability that allows for remote code execution via public//?s=index/\\think\\app/invokefunction\u0026function=call_user_func_array\u0026vars[0]=system\u0026vars[1][]= followed by the command.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-03",
                                 "notes":  ""
@@ -3277,7 +3277,7 @@
                                 "product":  "Kernel",
                                 "vulnerabilityName":  "Linux Kernel Improper Privilege Management Vulnerability",
                                 "dateAdded":  "2021-12-10",
-                                "shortDescription":  "Kernel/ptrace.c in Linux kernel mishandles contains an improper privilege management vulnerability which allows local users to obtain root access.",
+                                "shortDescription":  "Kernel/ptrace.c in Linux kernel mishandles contains an improper privilege management vulnerability that allows local users to obtain root access.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-10",
                                 "notes":  ""
@@ -3739,7 +3739,7 @@
                                 "product":  "Struts 1",
                                 "vulnerabilityName":  "Apache Struts 1 ActionForm Denial-of-Service Vulnerability",
                                 "dateAdded":  "2022-01-21",
-                                "shortDescription":  "ActionForm in Apache Struts versions before 1.2.9 with BeanUtils 1.7 contains a vulnerability which allows for denial-of-service.",
+                                "shortDescription":  "ActionForm in Apache Struts versions before 1.2.9 with BeanUtils 1.7 contains a vulnerability that allows for denial-of-service.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-07-21",
                                 "notes":  ""
@@ -3750,7 +3750,7 @@
                                 "product":  "Struts 2",
                                 "vulnerabilityName":  "Apache Struts 2 Improper Input Validation Vulnerability",
                                 "dateAdded":  "2022-01-21",
-                                "shortDescription":  "The ExceptionDelegator component in Apache Struts 2 before 2.2.3.1 contains an improper input validation vulnerability which allows for remote code execution.",
+                                "shortDescription":  "The ExceptionDelegator component in Apache Struts 2 before 2.2.3.1 contains an improper input validation vulnerability that allows for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-07-21",
                                 "notes":  ""
@@ -3761,7 +3761,7 @@
                                 "product":  "Win32k",
                                 "vulnerabilityName":  "Microsoft Win32k Privilege Escalation Vulnerability",
                                 "dateAdded":  "2022-01-21",
-                                "shortDescription":  "Microsoft Windows Win32k contains a vulnerability which allows an attacker to escalate privileges.",
+                                "shortDescription":  "Microsoft Windows Win32k contains a vulnerability that allows an attacker to escalate privileges.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-07-21",
                                 "notes":  ""
@@ -3772,7 +3772,7 @@
                                 "product":  "Serv-U",
                                 "vulnerabilityName":  "SolarWinds Serv-U Improper Input Validation Vulnerability",
                                 "dateAdded":  "2022-01-21",
-                                "shortDescription":  "SolarWinds Serv-U versions 15.2.5 and earlier contain an improper input validation vulnerability which allows attackers to build and send queries without sanitization.",
+                                "shortDescription":  "SolarWinds Serv-U versions 15.2.5 and earlier contain an improper input validation vulnerability that allows attackers to build and send queries without sanitization.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-02-04",
                                 "notes":  ""
@@ -3871,7 +3871,7 @@
                                 "product":  "Win32k",
                                 "vulnerabilityName":  "Microsoft Win32k Privilege Escalation Vulnerability",
                                 "dateAdded":  "2022-02-04",
-                                "shortDescription":  "Microsoft Win32k contains an unspecified vulnerability which allows for privilege escalation.",
+                                "shortDescription":  "Microsoft Win32k contains an unspecified vulnerability that allows for privilege escalation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-02-18",
                                 "notes":  ""
@@ -4014,7 +4014,7 @@
                                 "product":  "HTTP.sys",
                                 "vulnerabilityName":  "Microsoft HTTP.sys Remote Code Execution Vulnerability",
                                 "dateAdded":  "2022-02-10",
-                                "shortDescription":  "Microsoft HTTP protocol stack (HTTP.sys) contains a vulnerability which allows for remote code execution.",
+                                "shortDescription":  "Microsoft HTTP protocol stack (HTTP.sys) contains a vulnerability that allows for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-08-10",
                                 "notes":  ""
@@ -4047,7 +4047,7 @@
                                 "product":  "Webkit",
                                 "vulnerabilityName":  "Apple Webkit Remote Code Execution Vulnerability",
                                 "dateAdded":  "2022-02-11",
-                                "shortDescription":  "Apple Webkit, which impacts iOS, iPadOS, and macOS, contains a vulnerability which allows for remote code execution.",
+                                "shortDescription":  "Apple Webkit, which impacts iOS, iPadOS, and macOS, contains a vulnerability that allows for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-02-25",
                                 "notes":  ""
@@ -4278,7 +4278,7 @@
                                 "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows Installer Privilege Escalation Vulnerability",
                                 "dateAdded":  "2022-03-03",
-                                "shortDescription":  "Microsoft Windows Installer contains an unspecified vulnerability which allows for privilege escalation.",
+                                "shortDescription":  "Microsoft Windows Installer contains an unspecified vulnerability that allows for privilege escalation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-03-17",
                                 "notes":  ""
@@ -4960,7 +4960,7 @@
                                 "product":  "Office",
                                 "vulnerabilityName":  "Microsoft Office Memory Corruption Vulnerability",
                                 "dateAdded":  "2022-03-03",
-                                "shortDescription":  "Microsoft Office contains a memory corruption vulnerability which allows remote attackers to execute arbitrary code via a crafted document.",
+                                "shortDescription":  "Microsoft Office contains a memory corruption vulnerability that allows remote attackers to execute arbitrary code via a crafted document.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-03-24",
                                 "notes":  ""
@@ -5158,7 +5158,7 @@
                                 "product":  "Flash Player",
                                 "vulnerabilityName":  "Adobe Flash Player Remote Code Execution Vulnerability",
                                 "dateAdded":  "2022-03-03",
-                                "shortDescription":  "Adobe Flash Player contains a vulnerability which allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via crafted Flash content.",
+                                "shortDescription":  "Adobe Flash Player contains a vulnerability that allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via crafted Flash content.",
                                 "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
                                 "dueDate":  "2022-03-24",
                                 "notes":  ""
@@ -5323,7 +5323,7 @@
                                 "product":  "Wireless Router DGN2200",
                                 "vulnerabilityName":  "NETGEAR DGN2200 Remote Code Execution Vulnerability",
                                 "dateAdded":  "2022-03-07",
-                                "shortDescription":  "NETGEAR DGN2200 wireless routers contain a vulnerability which allows for remote code execution.",
+                                "shortDescription":  "NETGEAR DGN2200 wireless routers contain a vulnerability that allows for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-09-07",
                                 "notes":  ""
@@ -5378,7 +5378,7 @@
                                 "product":  "BlazeDS",
                                 "vulnerabilityName":  "Adobe BlazeDS Information Disclosure Vulnerability",
                                 "dateAdded":  "2022-03-07",
-                                "shortDescription":  "Adobe BlazeDS, which is utilized in LifeCycle and Coldfusion, contains a vulnerability which allows for information disclosure.",
+                                "shortDescription":  "Adobe BlazeDS, which is utilized in LifeCycle and Coldfusion, contains a vulnerability that allows for information disclosure.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-09-07",
                                 "notes":  ""
@@ -5642,7 +5642,7 @@
                                 "product":  "Spring Cloud Configuration (Config) Server",
                                 "vulnerabilityName":  "VMware Tanzu Spring Cloud Config Directory Traversal Vulnerability",
                                 "dateAdded":  "2022-03-25",
-                                "shortDescription":  "Spring, by VMware Tanzu, Cloud Config contains a path traversal vulnerability which allows applications to serve arbitrary configuration files.",
+                                "shortDescription":  "Spring, by VMware Tanzu, Cloud Config contains a path traversal vulnerability that allows applications to serve arbitrary configuration files.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-04-15",
                                 "notes":  ""
@@ -5719,7 +5719,7 @@
                                 "product":  "BI Publisher (Formerly XML Publisher)",
                                 "vulnerabilityName":  "Oracle BI Publisher Unauthorized Access Vulnerability",
                                 "dateAdded":  "2022-03-25",
-                                "shortDescription":  "Oracle BI Publisher, formerly XML Publisher, contains an unspecified vulnerability which allows for various unauthorized actions. Open-source reporting attributes this vulnerability to allowing for authentication bypass.",
+                                "shortDescription":  "Oracle BI Publisher, formerly XML Publisher, contains an unspecified vulnerability that allows for various unauthorized actions. Open-source reporting attributes this vulnerability to allowing for authentication bypass.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-04-15",
                                 "notes":  ""
@@ -6588,7 +6588,7 @@
                                 "product":  "Flash Player",
                                 "vulnerabilityName":  "Adobe Flash Player Memory Corruption Vulnerability",
                                 "dateAdded":  "2022-03-28",
-                                "shortDescription":  "Adobe Flash Player contains a memory corruption vulnerability which allows for remote code execution or denial-of-service.",
+                                "shortDescription":  "Adobe Flash Player contains a memory corruption vulnerability that allows for remote code execution or denial-of-service.",
                                 "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
                                 "dueDate":  "2022-04-18",
                                 "notes":  ""
@@ -6654,7 +6654,7 @@
                                 "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows User Profile Service Privilege Escalation Vulnerability",
                                 "dateAdded":  "2022-03-31",
-                                "shortDescription":  "Microsoft Windows User Profile Service contains an unspecified vulnerability which allows for privilege escalation.",
+                                "shortDescription":  "Microsoft Windows User Profile Service contains an unspecified vulnerability that allows for privilege escalation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-04-21",
                                 "notes":  ""
@@ -6797,7 +6797,7 @@
                                 "product":  "Active Directory",
                                 "vulnerabilityName":  "Microsoft Active Directory Domain Services Privilege Escalation Vulnerability",
                                 "dateAdded":  "2022-04-11",
-                                "shortDescription":  "Microsoft Active Directory Domain Services contains an unspecified vulnerability which allows for privilege escalation.",
+                                "shortDescription":  "Microsoft Active Directory Domain Services contains an unspecified vulnerability that allows for privilege escalation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-02",
                                 "notes":  ""
@@ -6808,7 +6808,7 @@
                                 "product":  "Active Directory",
                                 "vulnerabilityName":  "Microsoft Active Directory Domain Services Privilege Escalation Vulnerability",
                                 "dateAdded":  "2022-04-11",
-                                "shortDescription":  "Microsoft Active Directory Domain Services contains an unspecified vulnerability which allows for privilege escalation.",
+                                "shortDescription":  "Microsoft Active Directory Domain Services contains an unspecified vulnerability that allows for privilege escalation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-02",
                                 "notes":  ""
@@ -6940,7 +6940,7 @@
                                 "product":  "Internet Explorer",
                                 "vulnerabilityName":  "Microsoft Internet Explorer Memory Corruption Vulnerability",
                                 "dateAdded":  "2022-04-13",
-                                "shortDescription":  "Microsoft Internet Explorer contains a memory corruption vulnerability which allows an attacker to execute code or cause a denial-of-service.",
+                                "shortDescription":  "Microsoft Internet Explorer contains a memory corruption vulnerability that allows an attacker to execute code or cause a denial-of-service.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-04",
                                 "notes":  ""
@@ -7061,7 +7061,7 @@
                                 "product":  "Web Studio",
                                 "vulnerabilityName":  "InduSoft Web Studio NTWebServer Directory Traversal Vulnerability",
                                 "dateAdded":  "2022-04-15",
-                                "shortDescription":  "InduSoft Web Studio NTWebServer contains a directory traversal vulnerability which allows remote attackers to read administrative passwords in APP files, allowing for remote code execution.",
+                                "shortDescription":  "InduSoft Web Studio NTWebServer contains a directory traversal vulnerability that allows remote attackers to read administrative passwords in APP files, allowing for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-05-06",
                                 "notes":  ""
@@ -7391,7 +7391,7 @@
                                 "product":  "Chrome",
                                 "vulnerabilityName":  "Google Chrome Use-After-Free Vulnerability",
                                 "dateAdded":  "2022-05-23",
-                                "shortDescription":  "Google Chrome contains a heap use-after-free vulnerability which allows an attacker to potentially perform out of bounds memory access.",
+                                "shortDescription":  "Google Chrome contains a heap use-after-free vulnerability that allows an attacker to potentially perform out of bounds memory access.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-13",
                                 "notes":  ""
@@ -7699,7 +7699,7 @@
                                 "product":  "iOS",
                                 "vulnerabilityName":  "Apple iOS Webkit Memory Corruption Vulnerability",
                                 "dateAdded":  "2022-05-24",
-                                "shortDescription":  "WebKit in Apple iOS contains a memory corruption vulnerability which allows attackers to execute remote code or cause a denial-of-service via a crafted web site.",
+                                "shortDescription":  "WebKit in Apple iOS contains a memory corruption vulnerability that allows attackers to execute remote code or cause a denial-of-service via a crafted web site.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-14",
                                 "notes":  ""
@@ -7743,7 +7743,7 @@
                                 "product":  "Solaris",
                                 "vulnerabilityName":  "Oracle Solaris Privilege Escalation Vulnerability",
                                 "dateAdded":  "2022-05-25",
-                                "shortDescription":  "Oracle Solaris component: XScreenSaver contains an unspecified vulnerability which allows for privilege escalation.",
+                                "shortDescription":  "Oracle Solaris component: XScreenSaver contains an unspecified vulnerability that allows for privilege escalation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-15",
                                 "notes":  ""
@@ -8123,17 +8123,6 @@
                                 "notes":  ""
                             },
                             {
-                                "cveID":  "CVE-2022-31460",
-                                "vendorProject":  "Owl Labs",
-                                "product":  "Meeting Owl Pro and Whiteboard Owl",
-                                "vulnerabilityName":  "Meeting Owl Pro and Whiteboard Owl Hard-Coded Credentials Vulnerability",
-                                "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Owl Labs Meeting Owl and Whiteboard Owl allow attackers to activate Tethering Mode with hard-coded hoothoot credentials via a certain c 150 value.",
-                                "requiredAction":  "Apply updates per vendor instructions.",
-                                "dueDate":  "2022-06-22",
-                                "notes":  ""
-                            },
-                            {
                                 "cveID":  "CVE-2019-7195",
                                 "vendorProject":  "QNAP",
                                 "product":  "Photo Station",
@@ -8183,7 +8172,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Out-of-Bounds Write Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Google Chromium V8 Engine contains an out-of-bounds write vulnerability which allows a remote attacker to potentially exploit heap corruption.",
+                                "shortDescription":  "Google Chromium V8 Engine contains an out-of-bounds write vulnerability that allows a remote attacker to potentially exploit heap corruption.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8205,7 +8194,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Integer Overflow Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Google Chromium V8 Engine contains an integer overflow vulnerability which allows a remote attacker to potentially exploit heap corruption.",
+                                "shortDescription":  "Google Chromium V8 Engine contains an integer overflow vulnerability that allows a remote attacker to potentially exploit heap corruption.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8227,7 +8216,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Out-of-Bounds Write Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Google Chromium V8 Engine contains an out-of-bounds write vulnerability which allows a remote attacker to execute code inside a sandbox.",
+                                "shortDescription":  "Google Chromium V8 Engine contains an out-of-bounds write vulnerability that allows a remote attacker to execute code inside a sandbox.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8238,7 +8227,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Remote Code Execution Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Google Chromium V8 Engine contains an unspecified vulnerability which allows for remote code execution.",
+                                "shortDescription":  "Google Chromium V8 Engine contains an unspecified vulnerability that allows for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8260,7 +8249,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Type Confusion Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Google Chromium V8 Engine contains a type confusion vulnerability which allows a remote attacker to execute code inside a sandbox.",
+                                "shortDescription":  "Google Chromium V8 Engine contains a type confusion vulnerability that allows a remote attacker to execute code inside a sandbox.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8271,7 +8260,7 @@
                                 "product":  "Chromium V8 Engine",
                                 "vulnerabilityName":  "Google Chromium V8 Memory Corruption Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Google Chromium V8 Engine contains a memory corruption vulnerability which allows a remote attacker to execute code.",
+                                "shortDescription":  "Google Chromium V8 Engine contains a memory corruption vulnerability that allows a remote attacker to execute code.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8304,7 +8293,7 @@
                                 "product":  "Office",
                                 "vulnerabilityName":  "Microsoft Office Buffer Overflow Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Microsoft Office contains a buffer overflow vulnerability which allows remote attackers to execute code via crafted PNG data in an Office document.",
+                                "shortDescription":  "Microsoft Office contains a buffer overflow vulnerability that allows remote attackers to execute code via crafted PNG data in an Office document.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8315,7 +8304,7 @@
                                 "product":  "Flash Player",
                                 "vulnerabilityName":  "Adobe Flash Player Integer Overflow Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Adobe Flash Player contains an integer overflow vulnerability which allows remote attackers to execute code via malformed arguments.",
+                                "shortDescription":  "Adobe Flash Player contains an integer overflow vulnerability that allows remote attackers to execute code via malformed arguments.",
                                 "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8326,7 +8315,7 @@
                                 "product":  "Internet Explorer",
                                 "vulnerabilityName":  "Microsoft Internet Explorer Use-After-Free Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Microsoft Internet Explorer contains a use-after-free vulnerability which allows remote attackers to execute code via a crafted web site.",
+                                "shortDescription":  "Microsoft Internet Explorer contains a use-after-free vulnerability that allows remote attackers to execute code via a crafted web site.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8348,7 +8337,7 @@
                                 "product":  "Flash Player",
                                 "vulnerabilityName":  "Adobe Flash Player Cross-Site Scripting (XSS) Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Adobe Flash Player contains a XSS vulnerability which allows remote attackers to inject web script or HTML.",
+                                "shortDescription":  "Adobe Flash Player contains a XSS vulnerability that allows remote attackers to inject web script or HTML.",
                                 "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8359,7 +8348,7 @@
                                 "product":  "Flash Player",
                                 "vulnerabilityName":  "Adobe Flash Player Memory Corruption Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Adobe Flash Player contains a memory corruption vulnerability which allows remote attackers to execute code or cause denial-of-service.",
+                                "shortDescription":  "Adobe Flash Player contains a memory corruption vulnerability that allows remote attackers to execute code or cause denial-of-service.",
                                 "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8392,7 +8381,7 @@
                                 "product":  "Flash Player",
                                 "vulnerabilityName":  "Adobe Flash Player Unspecified Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Adobe Flash Player contains an unspecified vulnerability which allows remote attackers to execute code or cause denial-of-service.",
+                                "shortDescription":  "Adobe Flash Player contains an unspecified vulnerability that allows remote attackers to execute code or cause denial-of-service.",
                                 "requiredAction":  "The impacted product is end-of-life and should be disconnected if still in use.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8403,7 +8392,7 @@
                                 "product":  "Reader and Acrobat",
                                 "vulnerabilityName":  "Adobe Acrobat and Reader Stack-Based Buffer Overflow Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Adobe Acrobat and Reader contain a stack-based buffer overflow vulnerability which allows remote attackers to execute code or cause denial-of-service.",
+                                "shortDescription":  "Adobe Acrobat and Reader contain a stack-based buffer overflow vulnerability that allows remote attackers to execute code or cause denial-of-service.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8480,7 +8469,7 @@
                                 "product":  "Office",
                                 "vulnerabilityName":  "Microsoft Office Object Record Corruption Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Microsoft Office contains an object record corruption vulnerability which allows remote attackers to execute code via a crafted Excel file with a malformed record object.",
+                                "shortDescription":  "Microsoft Office contains an object record corruption vulnerability that allows remote attackers to execute code via a crafted Excel file with a malformed record object.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8502,7 +8491,7 @@
                                 "product":  "Acrobat and Reader",
                                 "vulnerabilityName":  "Adobe Acrobat and Reader Buffer Overflow Vulnerability",
                                 "dateAdded":  "2022-06-08",
-                                "shortDescription":  "Adobe Acrobat and Reader contain a buffer overflow vulnerability which allows remote attackers to execute code via a PDF file with long arguments to unspecified JavaScript methods.",
+                                "shortDescription":  "Adobe Acrobat and Reader contain a buffer overflow vulnerability that allows remote attackers to execute code via a PDF file with long arguments to unspecified JavaScript methods.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-06-22",
                                 "notes":  ""
@@ -8590,7 +8579,7 @@
                                 "product":  "Polkit",
                                 "vulnerabilityName":  "Red Hat Polkit Out-of-Bounds Read and Write Vulnerability",
                                 "dateAdded":  "2022-06-27",
-                                "shortDescription":  "The Red Hat polkit pkexec utility contains an out-of-bounds read and write vulnerability which allows for privilege escalation with administrative rights.",
+                                "shortDescription":  "The Red Hat polkit pkexec utility contains an out-of-bounds read and write vulnerability that allows for privilege escalation with administrative rights.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-07-18",
                                 "notes":  ""
@@ -8667,7 +8656,7 @@
                                 "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows Client Server Runtime Subsystem (CSRSS) Privilege Escalation Vulnerability",
                                 "dateAdded":  "2022-07-12",
-                                "shortDescription":  "Microsoft Windows CSRSS contains an unspecified vulnerability which allows for privilege escalation to SYSTEM privileges.",
+                                "shortDescription":  "Microsoft Windows CSRSS contains an unspecified vulnerability that allows for privilege escalation to SYSTEM privileges.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-08-02",
                                 "notes":  "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-22047"
@@ -8799,7 +8788,7 @@
                                 "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows Runtime Remote Code Execution Vulnerability",
                                 "dateAdded":  "2022-08-18",
-                                "shortDescription":  "Microsoft Windows Runtime contains an unspecified vulnerability which allows for remote code execution.",
+                                "shortDescription":  "Microsoft Windows Runtime contains an unspecified vulnerability that allows for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-09-08",
                                 "notes":  "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-21971"
@@ -8876,7 +8865,7 @@
                                 "product":  "WebRTC",
                                 "vulnerabilityName":  "WebRTC Heap Buffer Overflow Vulnerability",
                                 "dateAdded":  "2022-08-25",
-                                "shortDescription":  "WebRTC, an open-source project providing web browsers with real-time communication, contains a heap buffer overflow vulnerability which allows an attacker to perform shellcode execution. This vulnerability impacts web browsers using WebRTC including but not limited to Google Chrome.",
+                                "shortDescription":  "WebRTC, an open-source project providing web browsers with real-time communication, contains a heap buffer overflow vulnerability that allows an attacker to perform shellcode execution. This vulnerability impacts web browsers using WebRTC including but not limited to Google Chrome.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-09-15",
                                 "notes":  "https://groups.google.com/g/discuss-webrtc/c/5KBtZx2gvcQ"
@@ -9008,7 +8997,7 @@
                                 "product":  "Multiple Routers",
                                 "vulnerabilityName":  "D-Link Multiple Routers OS Command Injection Vulnerability",
                                 "dateAdded":  "2022-09-08",
-                                "shortDescription":  "Multiple D-Link routers contain an unspecified vulnerability which allows for execution of OS commands.",
+                                "shortDescription":  "Multiple D-Link routers contain an unspecified vulnerability that allows for execution of OS commands.",
                                 "requiredAction":  "The vendor D-Link published an advisory stating the fix under CVE-2018-20114 properly patches KEV entry CVE-2018-6530. If the device is still supported, apply updates per vendor instructions. If the affected device has since entered its end-of-life, it should be disconnected if still in use.",
                                 "dueDate":  "2022-09-29",
                                 "notes":  "https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10105"
@@ -9030,7 +9019,7 @@
                                 "product":  "FortiOS and FortiADC",
                                 "vulnerabilityName":  "Fortinet FortiOS and FortiADC Improper Access Control Vulnerability",
                                 "dateAdded":  "2022-09-08",
-                                "shortDescription":  "Fortinet FortiOS and FortiADC contain an improper access control vulnerability which allows attackers to obtain the LDAP server login credentials configured in FortiGate by pointing a LDAP server connectivity test request to a rogue LDAP server.",
+                                "shortDescription":  "Fortinet FortiOS and FortiADC contain an improper access control vulnerability that allows attackers to obtain the LDAP server login credentials configured in FortiGate by pointing a LDAP server connectivity test request to a rogue LDAP server.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-09-29",
                                 "notes":  "https://www.fortiguard.com/psirt/FG-IR-18-157"
@@ -9074,7 +9063,7 @@
                                 "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability",
                                 "dateAdded":  "2022-09-14",
-                                "shortDescription":  "Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability which allows for privilege escalation.",
+                                "shortDescription":  "Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability that allows for privilege escalation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-10-05",
                                 "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-37969"
@@ -9118,7 +9107,7 @@
                                 "product":  "ACDB Audio Driver",
                                 "vulnerabilityName":  "Code Aurora ACDB Audio Driver Stack-based Buffer Overflow Vulnerability",
                                 "dateAdded":  "2022-09-15",
-                                "shortDescription":  "The Code Aurora audio calibration database (acdb) audio driver contains a stack-based buffer overflow vulnerability which allows for privilege escalation. Code Aurora is used in third-party products such as Qualcomm and Android.",
+                                "shortDescription":  "The Code Aurora audio calibration database (acdb) audio driver contains a stack-based buffer overflow vulnerability that allows for privilege escalation. Code Aurora is used in third-party products such as Qualcomm and Android.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-10-06",
                                 "notes":  "https://web.archive.org/web/20161226013354/https:/www.codeaurora.org/news/security-advisories/stack-based-buffer-overflow-acdb-audio-driver-cve-2013-2597"
@@ -9129,7 +9118,7 @@
                                 "product":  "Kernel",
                                 "vulnerabilityName":  "Linux Kernel Integer Overflow Vulnerability",
                                 "dateAdded":  "2022-09-15",
-                                "shortDescription":  "Linux kernel fb_mmap function in drivers/video/fbmem.c contains an integer overflow vulnerability which allows for privilege escalation.",
+                                "shortDescription":  "Linux kernel fb_mmap function in drivers/video/fbmem.c contains an integer overflow vulnerability that allows for privilege escalation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-10-06",
                                 "notes":  "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=fc9bbca8f650e5f738af8806317c0a041a48ae4a"
@@ -9162,7 +9151,7 @@
                                 "product":  "ManageEngine",
                                 "vulnerabilityName":  "Zoho ManageEngine Multiple Products Remote Code Execution Vulnerability",
                                 "dateAdded":  "2022-09-22",
-                                "shortDescription":  "Zoho ManageEngine PAM360, Password Manager Pro, and Access Manager Plus contain an unspecified vulnerability which allows for remote code execution.",
+                                "shortDescription":  "Zoho ManageEngine PAM360, Password Manager Pro, and Access Manager Plus contain an unspecified vulnerability that allows for remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-10-13",
                                 "notes":  "https://www.manageengine.com/products/passwordmanagerpro/advisory/cve-2022-35405.html"
@@ -9184,7 +9173,7 @@
                                 "product":  "Exchange Server",
                                 "vulnerabilityName":  "Microsoft Exchange Server Remote Code Execution Vulnerability",
                                 "dateAdded":  "2022-09-30",
-                                "shortDescription":  "Microsoft Exchange Server contains an unspecified vulnerability which allows for authenticated remote code execution. Dubbed \"ProxyNotShell,\" this vulnerability is chainable with CVE-2022-41040 which allows for the remote code execution.",
+                                "shortDescription":  "Microsoft Exchange Server contains an unspecified vulnerability that allows for authenticated remote code execution. Dubbed \"ProxyNotShell,\" this vulnerability is chainable with CVE-2022-41040 which allows for the remote code execution.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-10-21",
                                 "notes":  "https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/"
@@ -9360,7 +9349,7 @@
                                 "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows Print Spooler Privilege Escalation Vulnerability",
                                 "dateAdded":  "2022-11-08",
-                                "shortDescription":  "Microsoft Windows Print Spooler contains an unspecified vulnerability which allows an attacker to gain SYSTEM-level privileges.",
+                                "shortDescription":  "Microsoft Windows Print Spooler contains an unspecified vulnerability that allows an attacker to gain SYSTEM-level privileges.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-12-09",
                                 "notes":  "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41073"
@@ -9371,7 +9360,7 @@
                                 "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows CNG Key Isolation Service Privilege Escalation Vulnerability",
                                 "dateAdded":  "2022-11-08",
-                                "shortDescription":  "Microsoft Windows Cryptographic Next Generation (CNG) Key Isolation Service contains an unspecified vulnerability which allows an attacker to gain SYSTEM-level privileges.",
+                                "shortDescription":  "Microsoft Windows Cryptographic Next Generation (CNG) Key Isolation Service contains an unspecified vulnerability that allows an attacker to gain SYSTEM-level privileges.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2022-12-09",
                                 "notes":  "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41125"
@@ -9492,7 +9481,7 @@
                                 "product":  "Application Delivery Controller (ADC) and Gateway",
                                 "vulnerabilityName":  "Citrix Application Delivery Controller (ADC) and Gateway Authentication Bypass Vulnerability",
                                 "dateAdded":  "2022-12-13",
-                                "shortDescription":  "Citrix Application Delivery Controller (ADC) and Gateway, when configured with SAML SP or IdP configuration, contain an authentication bypass vulnerability which allows an attacker to execute code as administrator.",
+                                "shortDescription":  "Citrix Application Delivery Controller (ADC) and Gateway, when configured with SAML SP or IdP configuration, contain an authentication bypass vulnerability that allows an attacker to execute code as administrator.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-01-03",
                                 "notes":  "https://www.citrix.com/blogs/2022/12/13/critical-security-update-now-available-for-citrix-adc-citrix-gateway/"
@@ -9668,7 +9657,7 @@
                                 "product":  "Office",
                                 "vulnerabilityName":  "Microsoft Office Publisher Security Feature Bypass Vulnerability",
                                 "dateAdded":  "2023-02-14",
-                                "shortDescription":  "Microsoft Office Publisher contains a security feature bypass vulnerability which allows for a local, authenticated attack on a targeted system.",
+                                "shortDescription":  "Microsoft Office Publisher contains a security feature bypass vulnerability that allows for a local, authenticated attack on a targeted system.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-07",
                                 "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-21715"
@@ -9679,7 +9668,7 @@
                                 "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability",
                                 "dateAdded":  "2023-02-14",
-                                "shortDescription":  "Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability which allows for privilege escalation.",
+                                "shortDescription":  "Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability that allows for privilege escalation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-07",
                                 "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-23376"
@@ -9701,7 +9690,7 @@
                                 "product":  "Windows",
                                 "vulnerabilityName":  "Microsoft Windows Graphic Component Privilege Escalation Vulnerability",
                                 "dateAdded":  "2023-02-14",
-                                "shortDescription":  "Microsoft Windows Graphic Component contains an unspecified vulnerability which allows for privilege escalation.",
+                                "shortDescription":  "Microsoft Windows Graphic Component contains an unspecified vulnerability that allows for privilege escalation.",
                                 "requiredAction":  "Apply updates per vendor instructions.",
                                 "dueDate":  "2023-03-07",
                                 "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-21823"
@@ -11027,50 +11016,6 @@
                                 "notes":  "https://github.com/facade/ignition/releases/tag/2.5.2"
                             },
                             {
-                                "cveID":  "CVE-2022-31459",
-                                "vendorProject":  "Owl Labs",
-                                "product":  "Meeting Owl",
-                                "vulnerabilityName":  "Owl Labs Meeting Owl Inadequate Encryption Strength Vulnerability",
-                                "dateAdded":  "2023-09-18",
-                                "shortDescription":  "Owl Labs Meeting Owl contains an inadequate encryption strength vulnerability that allows an attacker to retrieve the passcode hash via a certain c 10 value over Bluetooth.",
-                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2023-10-16",
-                                "notes":  "This CVE is currently under review status. The Due Date for remediation has been extended a week to conduct this review. https://resources.owllabs.com/blog/owl-labs-update"
-                            },
-                            {
-                                "cveID":  "CVE-2022-31461",
-                                "vendorProject":  "Owl Labs",
-                                "product":  "Meeting Owl",
-                                "vulnerabilityName":  "Owl Labs Meeting Owl Missing Authentication for Critical Function Vulnerability",
-                                "dateAdded":  "2023-09-18",
-                                "shortDescription":  "Owl Labs Meeting Owl contains a missing authentication for critical functions vulnerability that allows an attacker to deactivate the passcode protection mechanism via a certain c 11 message.",
-                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2023-10-16",
-                                "notes":  "This CVE is currently under review status. The Due Date for remediation has been extended a week to conduct this review. https://resources.owllabs.com/blog/owl-labs-update"
-                            },
-                            {
-                                "cveID":  "CVE-2022-31462",
-                                "vendorProject":  "Owl Labs",
-                                "product":  "Meeting Owl",
-                                "vulnerabilityName":  "Owl Labs Meeting Owl Use of Hard-coded Credentials Vulnerability",
-                                "dateAdded":  "2023-09-18",
-                                "shortDescription":  "Owl Labs Meeting Owl contains a use of hard-coded credentials vulnerability that allows an attacker to control the device via a backdoor password (derived from the serial number) that can be found in Bluetooth broadcast data.",
-                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2023-10-16",
-                                "notes":  "This CVE is currently under review status. The Due Date for remediation has been extended a week to conduct this review. https://resources.owllabs.com/blog/owl-labs-update"
-                            },
-                            {
-                                "cveID":  "CVE-2022-31463",
-                                "vendorProject":  "Owl Labs",
-                                "product":  "Meeting Owl",
-                                "vulnerabilityName":  "Owl Labs Meeting Owl Improper Authentication Vulnerability",
-                                "dateAdded":  "2023-09-18",
-                                "shortDescription":  "Owl Labs Meeting Owl contains an improper authentication vulnerability that does not require a password for Bluetooth commands, as only client-side authentication is used.",
-                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2023-10-16",
-                                "notes":  "This CVE is currently under review status. The Due Date for remediation has been extended a week to conduct this review. https://resources.owllabs.com/blog/owl-labs-update"
-                            },
-                            {
                                 "cveID":  "CVE-2023-28434",
                                 "vendorProject":  "MinIO",
                                 "product":  "MinIO",
@@ -11157,6 +11102,28 @@
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-10-24",
                                 "notes":  "https://developer.arm.com/Arm%20Security%20Center/Mali%20GPU%20Driver%20Vulnerabilities"
+                            },
+                            {
+                                "cveID":  "CVE-2023-42793",
+                                "vendorProject":  "JetBrains",
+                                "product":  "TeamCity",
+                                "vulnerabilityName":  "JetBrains TeamCity Authentication Bypass Vulnerability",
+                                "dateAdded":  "2023-10-04",
+                                "shortDescription":  "JetBrains TeamCity contains an authentication bypass vulnerability that allows for remote code execution on TeamCity Server.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-25",
+                                "notes":  "https://blog.jetbrains.com/teamcity/2023/09/critical-security-issue-affecting-teamcity-on-premises-update-to-2023-05-4-now/"
+                            },
+                            {
+                                "cveID":  "CVE-2023-28229",
+                                "vendorProject":  "Microsoft",
+                                "product":  "Windows CNG Key Isolation Service",
+                                "vulnerabilityName":  "Microsoft Windows CNG Key Isolation Service Privilege Escalation Vulnerability",
+                                "dateAdded":  "2023-10-04",
+                                "shortDescription":  "Microsoft Windows Cryptographic Next Generation (CNG) Key Isolation Service contains an unspecified vulnerability that allows an attacker to gain specific limited SYSTEM privileges.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-25",
+                                "notes":  "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28229"
                             }
                         ]
 }
