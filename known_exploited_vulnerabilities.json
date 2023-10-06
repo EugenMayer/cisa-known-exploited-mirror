@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.10.04",
-    "dateReleased":  "2023-10-04T09:43:05.1253Z",
-    "count":  1011,
+    "catalogVersion":  "2023.10.05",
+    "dateReleased":  "2023-10-05T09:56:28.8785Z",
+    "count":  1014,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -11124,6 +11124,39 @@
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
                                 "dueDate":  "2023-10-25",
                                 "notes":  "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28229"
+                            },
+                            {
+                                "cveID":  "CVE-2023-22515",
+                                "vendorProject":  "Atlassian",
+                                "product":  "Confluence Data Center and Server",
+                                "vulnerabilityName":  "Atlassian Confluence Data Center and Server Privilege Escalation Vulnerability",
+                                "dateAdded":  "2023-10-05",
+                                "shortDescription":  "Atlassian Confluence Data Center and Server contains a privilege escalation vulnerability that allows an attacker to create unauthorized Confluence administrator accounts and access Confluence.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-26",
+                                "notes":  "https://confluence.atlassian.com/security/cve-2023-22515-privilege-escalation-vulnerability-in-confluence-data-center-and-server-1295682276.html"
+                            },
+                            {
+                                "cveID":  "CVE-2023-40044",
+                                "vendorProject":  "Progress",
+                                "product":  "WS_FTP Server",
+                                "vulnerabilityName":  "Progress WS_FTP Server Deserialization of Untrusted Data Vulnerability",
+                                "dateAdded":  "2023-10-05",
+                                "shortDescription":  "Progress WS_FTP Server contains a deserialization of untrusted data vulnerability in the Ad Hoc Transfer module that allows an authenticated attacker to execute remote commands on the underlying operating system.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-26",
+                                "notes":  "https://community.progress.com/s/article/WS-FTP-Server-Critical-Vulnerability-September-2023"
+                            },
+                            {
+                                "cveID":  "CVE-2023-42824",
+                                "vendorProject":  "Apple",
+                                "product":  "iOS and iPadOS",
+                                "vulnerabilityName":  "Apple iOS and iPadOS Kernel Privilege Escalation Vulnerability",
+                                "dateAdded":  "2023-10-05",
+                                "shortDescription":  "Apple iOS and iPadOS contain an unspecified vulnerability that allows for local privilege escalation.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-10-26",
+                                "notes":  "https://support.apple.com/en-us/HT213961"
                             }
                         ]
 }
