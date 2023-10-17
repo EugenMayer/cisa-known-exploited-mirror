@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.10.12",
-    "dateReleased":  "2023-10-12T13:32:45.9855Z",
-    "count":  1019,
+    "catalogVersion":  "2023.10.16",
+    "dateReleased":  "2023-10-16T15:00:10.5444Z",
+    "count":  1020,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -12231,6 +12231,18 @@
                                 "dueDate":  "2023-10-31",
                                 "knownRansomwareCampaignUse":  "Unknown",
                                 "notes":  "https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/"
+                            },
+                            {
+                                "cveID":  "CVE-2023-20198",
+                                "vendorProject":  "Cisco",
+                                "product":  "IOS XE Web UI",
+                                "vulnerabilityName":  "Cisco IOS XE Web UI Privilege Escalation Vulnerability",
+                                "dateAdded":  "2023-10-16",
+                                "shortDescription":  "Cisco IOS XE Web UI contains a privilege escalation vulnerability in the web user interface that could allow a remote, unauthenticated attacker to create an account with privilege level 15 access. The attacker can then use that account to gain control of the affected device.",
+                                "requiredAction":  "Verify that instances of Cisco IOS XE Web UI are in compliance with BOD 23-02 and apply mitigations per vendor instructions. For affected products (Cisco IOS XE Web UI exposed to the internet or to untrusted networks), follow vendor instructions to determine if a system may have been compromised and immediately report positive findings to CISA.",
+                                "dueDate":  "2023-10-20",
+                                "knownRansomwareCampaignUse":  "Unknown",
+                                "notes":  "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z"
                             }
                         ]
 }
