@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.10.16",
-    "dateReleased":  "2023-10-16T15:00:10.5444Z",
-    "count":  1020,
+    "catalogVersion":  "2023.10.18",
+    "dateReleased":  "2023-10-18T09:46:11.0530Z",
+    "count":  1021,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -12243,6 +12243,18 @@
                                 "dueDate":  "2023-10-20",
                                 "knownRansomwareCampaignUse":  "Unknown",
                                 "notes":  "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z"
+                            },
+                            {
+                                "cveID":  "CVE-2023-4966",
+                                "vendorProject":  "Citrix",
+                                "product":  "NetScaler ADC and NetScaler Gateway",
+                                "vulnerabilityName":  "Citrix NetScaler ADC and NetScaler Gateway Buffer Overflow Vulnerability",
+                                "dateAdded":  "2023-10-18",
+                                "shortDescription":  "Citrix NetScaler ADC and NetScaler Gateway contain a buffer overflow vulnerability that allows for sensitive information disclosure when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-11-08",
+                                "knownRansomwareCampaignUse":  "Unknown",
+                                "notes":  "https://support.citrix.com/article/CTX579459/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20234966-and-cve20234967"
                             }
                         ]
 }
