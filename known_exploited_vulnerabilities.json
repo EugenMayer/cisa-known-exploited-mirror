@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.10.18",
-    "dateReleased":  "2023-10-18T09:46:11.0530Z",
-    "count":  1021,
+    "catalogVersion":  "2023.10.19",
+    "dateReleased":  "2023-10-19T09:46:51.4769Z",
+    "count":  1022,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -12255,6 +12255,18 @@
                                 "dueDate":  "2023-11-08",
                                 "knownRansomwareCampaignUse":  "Unknown",
                                 "notes":  "https://support.citrix.com/article/CTX579459/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20234966-and-cve20234967"
+                            },
+                            {
+                                "cveID":  "CVE-2021-1435",
+                                "vendorProject":  "Cisco",
+                                "product":  "Cisco IOS XE Web UI",
+                                "vulnerabilityName":  "Cisco IOS XE Web UI Command Injection Vulnerability",
+                                "dateAdded":  "2023-10-19",
+                                "shortDescription":  "Cisco IOS XE contains a command injection vulnerability in the web user interface that could allow a remote, authenticated attacker to inject commands that can be executed as the root user.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-11-09",
+                                "knownRansomwareCampaignUse":  "Unknown",
+                                "notes":  "https://blog.talosintelligence.com/active-exploitation-of-cisco-ios-xe-software/"
                             }
                         ]
 }
