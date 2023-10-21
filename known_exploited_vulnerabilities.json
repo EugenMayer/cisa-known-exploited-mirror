@@ -1,7 +1,7 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.10.19",
-    "dateReleased":  "2023-10-19T09:46:51.4769Z",
+    "catalogVersion":  "2023.10.20",
+    "dateReleased":  "2023-10-20T13:15:40.2309Z",
     "count":  1022,
     "vulnerabilities":  [
                             {
@@ -12264,7 +12264,7 @@
                                 "dateAdded":  "2023-10-19",
                                 "shortDescription":  "Cisco IOS XE contains a command injection vulnerability in the web user interface that could allow a remote, authenticated attacker to inject commands that can be executed as the root user.",
                                 "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2023-11-09",
+                                "dueDate":  "2023-10-25",
                                 "knownRansomwareCampaignUse":  "Unknown",
                                 "notes":  "https://blog.talosintelligence.com/active-exploitation-of-cisco-ios-xe-software/"
                             }
