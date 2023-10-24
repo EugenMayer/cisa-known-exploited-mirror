@@ -1,7 +1,7 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.10.20",
-    "dateReleased":  "2023-10-20T13:15:40.2309Z",
+    "catalogVersion":  "2023.10.23",
+    "dateReleased":  "2023-10-23T14:34:51.4086Z",
     "count":  1022,
     "vulnerabilities":  [
                             {
@@ -12242,7 +12242,7 @@
                                 "requiredAction":  "Verify that instances of Cisco IOS XE Web UI are in compliance with BOD 23-02 and apply mitigations per vendor instructions. For affected products (Cisco IOS XE Web UI exposed to the internet or to untrusted networks), follow vendor instructions to determine if a system may have been compromised and immediately report positive findings to CISA.",
                                 "dueDate":  "2023-10-20",
                                 "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z"
+                                "notes":  "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-xe-dublin-17121/221128-software-fix-availability-for-cisco-ios.html"
                             },
                             {
                                 "cveID":  "CVE-2023-4966",
@@ -12257,16 +12257,16 @@
                                 "notes":  "https://support.citrix.com/article/CTX579459/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20234966-and-cve20234967"
                             },
                             {
-                                "cveID":  "CVE-2021-1435",
+                                "cveID":  "CVE-2023-20273",
                                 "vendorProject":  "Cisco",
                                 "product":  "Cisco IOS XE Web UI",
-                                "vulnerabilityName":  "Cisco IOS XE Web UI Command Injection Vulnerability",
-                                "dateAdded":  "2023-10-19",
-                                "shortDescription":  "Cisco IOS XE contains a command injection vulnerability in the web user interface that could allow a remote, authenticated attacker to inject commands that can be executed as the root user.",
-                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2023-10-25",
+                                "vulnerabilityName":  "Cisco IOS XE Web UI Unspecified Vulnerability",
+                                "dateAdded":  "2023-10-23",
+                                "shortDescription":  "Cisco IOS XE contains an unspecified vulnerability in the web user interface. When chained with CVE-2023-20198, the attacker can leverage the new local user to elevate privilege to root and write the implant to the file system. Cisco identified CVE-2023-20273 as the vulnerability exploited to deploy the implant. CVE-2021-1435, previously associated with the exploitation events, is no longer believed to be related to this activity.",
+                                "requiredAction":  "Verify that instances of Cisco IOS XE Web UI are in compliance with BOD 23-02 and apply mitigations per vendor instructions. For affected products (Cisco IOS XE Web UI exposed to the internet or to untrusted networks), follow vendor instructions to determine if a system may have been compromised and immediately report positive findings to CISA.",
+                                "dueDate":  "2023-10-27",
                                 "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://blog.talosintelligence.com/active-exploitation-of-cisco-ios-xe-software/"
+                                "notes":  "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z"
                             }
                         ]
 }
