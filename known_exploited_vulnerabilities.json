@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.10.26",
-    "dateReleased":  "2023-10-26T09:45:46.1774Z",
-    "count":  1023,
+    "catalogVersion":  "2023.10.31",
+    "dateReleased":  "2023-10-31T13:47:55.5036Z",
+    "count":  1025,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -12279,6 +12279,30 @@
                                 "dueDate":  "2023-11-16",
                                 "knownRansomwareCampaignUse":  "Unknown",
                                 "notes":  "https://roundcube.net/news/2023/10/16/security-update-1.6.4-released, https://roundcube.net/news/2023/10/16/security-updates-1.5.5-and-1.4.15"
+                            },
+                            {
+                                "cveID":  "CVE-2023-46748",
+                                "vendorProject":  "F5",
+                                "product":  "BIG-IP Configuration Utility",
+                                "vulnerabilityName":  "F5 BIG-IP Configuration Utility SQL Injection Vulnerability",
+                                "dateAdded":  "2023-10-31",
+                                "shortDescription":  "F5 BIG-IP Configuration utility contains an SQL injection vulnerability that may allow an authenticated attacker with network access through the BIG-IP management port and/or self IP addresses to execute system commands. This vulnerability can be used in conjunction with CVE-2023-46747.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-11-21",
+                                "knownRansomwareCampaignUse":  "Unknown",
+                                "notes":  "https://my.f5.com/manage/s/article/K000137365"
+                            },
+                            {
+                                "cveID":  "CVE-2023-46747",
+                                "vendorProject":  "F5",
+                                "product":  "BIG-IP Configuration Utility",
+                                "vulnerabilityName":  "F5 BIG-IP Configuration Utility Authentication Bypass Vulnerability",
+                                "dateAdded":  "2023-10-31",
+                                "shortDescription":  "F5 BIG-IP Configuration utility contains an authentication bypass using an alternate path or channel vulnerability due to undisclosed requests that may allow an unauthenticated attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute system commands. This vulnerability can be used in conjunction with CVE-2023-46748.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-11-21",
+                                "knownRansomwareCampaignUse":  "Unknown",
+                                "notes":  "https://my.f5.com/manage/s/article/K000137353"
                             }
                         ]
 }
