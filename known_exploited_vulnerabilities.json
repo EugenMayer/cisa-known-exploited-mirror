@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.10.31",
-    "dateReleased":  "2023-10-31T13:47:55.5036Z",
-    "count":  1025,
+    "catalogVersion":  "2023.11.02",
+    "dateReleased":  "2023-11-02T09:44:19.4160Z",
+    "count":  1026,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -12303,6 +12303,18 @@
                                 "dueDate":  "2023-11-21",
                                 "knownRansomwareCampaignUse":  "Unknown",
                                 "notes":  "https://my.f5.com/manage/s/article/K000137353"
+                            },
+                            {
+                                "cveID":  "CVE-2023-46604",
+                                "vendorProject":  "Apache",
+                                "product":  "ActiveMQ",
+                                "vulnerabilityName":  "Apache ActiveMQ Deserialization of Untrusted Data Vulnerability",
+                                "dateAdded":  "2023-11-02",
+                                "shortDescription":  "Apache ActiveMQ contains a deserialization of untrusted data vulnerability that may allow a remote attacker with network access to a broker to run shell commands by manipulating serialized class types in the OpenWire protocol to cause the broker to instantiate any class on the classpath.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+                                "dueDate":  "2023-11-23",
+                                "knownRansomwareCampaignUse":  "Unknown",
+                                "notes":  "https://activemq.apache.org/security-advisories.data/CVE-2023-46604-announcement.txt"
                             }
                         ]
 }
