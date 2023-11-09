@@ -1,8 +1,8 @@
 {
     "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2023.11.07",
-    "dateReleased":  "2023-11-07T09:45:30.0662Z",
-    "count":  1027,
+    "catalogVersion":  "2023.11.08",
+    "dateReleased":  "2023-11-08T09:47:46.0449Z",
+    "count":  1028,
     "vulnerabilities":  [
                             {
                                 "cveID":  "CVE-2021-27104",
@@ -12327,6 +12327,18 @@
                                 "dueDate":  "2023-11-28",
                                 "knownRansomwareCampaignUse":  "Unknown",
                                 "notes":  "https://confluence.atlassian.com/security/cve-2023-22518-improper-authorization-vulnerability-in-confluence-data-center-and-server-1311473907.html"
+                            },
+                            {
+                                "cveID":  "CVE-2023-29552",
+                                "vendorProject":  "IETF",
+                                "product":  "Service Location Protocol (SLP)",
+                                "vulnerabilityName":  "Service Location Protocol (SLP) Denial-of-Service Vulnerability",
+                                "dateAdded":  "2023-11-08",
+                                "shortDescription":  "The Service Location Protocol (SLP) contains a denial-of-service (DoS) vulnerability that could allow an unauthenticated, remote attacker to register services and use spoofed UDP traffic to conduct a denial-of-service (DoS) attack with a significant amplification factor.",
+                                "requiredAction":  "Apply mitigations per vendor instructions or disable SLP service or port 427/UDP on all systems running on untrusted networks, including those directly connected to the Internet.",
+                                "dueDate":  "2023-11-29",
+                                "knownRansomwareCampaignUse":  "Unknown",
+                                "notes":  "https://blogs.vmware.com/security/2023/04/vmware-response-to-cve-2023-29552-reflective-denial-of-service-dos-amplification-vulnerability-in-slp.html, https://www.suse.com/support/kb/doc/?id=000021051, https://security.netapp.com/advisory/ntap-20230426-0001/, https://www.cisa.gov/news-events/alerts/2023/04/25/abuse-service-location-protocol-may-lead-dos-attacks"
                             }
                         ]
 }
