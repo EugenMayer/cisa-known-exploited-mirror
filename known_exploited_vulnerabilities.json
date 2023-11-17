@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2023.11.14",
-    "dateReleased": "2023-11-14T22:45:06.1147Z",
-    "count": 1037,
+    "catalogVersion": "2023.11.16",
+    "dateReleased": "2023-11-16T15:01:18.0234Z",
+    "count": 1040,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12447,6 +12447,42 @@
             "dueDate": "2023-12-05",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/msrc.microsoft.com\/update-guide\/en-US\/vulnerability\/CVE-2023-36036"
+        },
+        {
+            "cveID": "CVE-2023-36584",
+            "vendorProject": "Microsoft",
+            "product": "Windows",
+            "vulnerabilityName": "Microsoft Windows Mark of the Web (MOTW) Security Feature Bypass Vulnerability",
+            "dateAdded": "2023-11-16",
+            "shortDescription": "Microsoft Windows Mark of the Web (MOTW) contains a security feature bypass vulnerability resulting in a limited loss of integrity and availability of security features.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2023-12-07",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/msrc.microsoft.com\/update-guide\/vulnerability\/CVE-2023-36584"
+        },
+        {
+            "cveID": "CVE-2023-1671",
+            "vendorProject": "Sophos",
+            "product": "Web Appliance",
+            "vulnerabilityName": "Sophos Web Appliance Command Injection Vulnerability",
+            "dateAdded": "2023-11-16",
+            "shortDescription": "Sophos Web Appliance contains a command injection vulnerability in the warn-proceed handler that allows for remote code execution.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2023-12-07",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/www.sophos.com\/en-us\/security-advisories\/sophos-sa-20230404-swa-rce"
+        },
+        {
+            "cveID": "CVE-2020-2551",
+            "vendorProject": "Oracle",
+            "product": "Fusion Middleware",
+            "vulnerabilityName": "Oracle Fusion Middleware Unspecified Vulnerability",
+            "dateAdded": "2023-11-16",
+            "shortDescription": "Oracle Fusion Middleware contains an unspecified vulnerability in the WLS Core Components that allows an unauthenticated attacker with network access via IIOP to compromise the WebLogic Server.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2023-12-07",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/www.oracle.com\/security-alerts\/cpujan2020.html"
         }
     ]
 }
