@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2023.11.16",
-    "dateReleased": "2023-11-16T15:01:18.0234Z",
-    "count": 1040,
+    "catalogVersion": "2023.11.21",
+    "dateReleased": "2023-11-21T15:04:33.6952Z",
+    "count": 1041,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12483,6 +12483,18 @@
             "dueDate": "2023-12-07",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/www.oracle.com\/security-alerts\/cpujan2020.html"
+        },
+        {
+            "cveID": "CVE-2023-4911",
+            "vendorProject": "GNU",
+            "product": "GNU C Library",
+            "vulnerabilityName": "GNU C Library Buffer Overflow Vulnerability",
+            "dateAdded": "2023-11-21",
+            "shortDescription": "GNU C Library's dynamic loader ld.so contains a buffer overflow vulnerability when processing the GLIBC_TUNABLES environment variable, allowing a local attacker to execute code with elevated privileges.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2023-12-12",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https:\/\/sourceware.org\/git\/?p=glibc.git;a=commitdiff;h=1056e5b4c3f2d90ed2b4a55f96add28da2f4c8fa, https:\/\/access.redhat.com\/security\/cve\/cve-2023-4911, https:\/\/www.debian.org\/security\/2023\/dsa-5514"
         }
     ]
 }
