@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2023.11.30",
-    "dateReleased": "2023-11-30T15:00:35.2156Z",
-    "count": 1043,
+    "catalogVersion": "2023.12.01",
+    "dateReleased": "2023-12-01T18:47:38.1879Z",
+    "count": 1042,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -9747,18 +9747,6 @@
             "dueDate": "2022-09-29",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/chromereleases.googleblog.com\/2022\/09\/stable-channel-update-for-desktop.html, https:\/\/msrc.microsoft.com\/update-guide\/vulnerability\/CVE-2022-3075"
-        },
-        {
-            "cveID": "CVE-2022-28958",
-            "vendorProject": "D-Link",
-            "product": "DIR-816L",
-            "vulnerabilityName": "D-Link DIR-816L Remote Code Execution Vulnerability",
-            "dateAdded": "2022-09-08",
-            "shortDescription": "D-Link DIR-816L contains an unspecified vulnerability in the shareport.php value parameter which allows for remote code execution.",
-            "requiredAction": "This CVE is currently in disputed status. During the review process, agencies should update per vendor instructions.",
-            "dueDate": "2022-09-29",
-            "knownRansomwareCampaignUse": "Unknown",
-            "notes": "https:\/\/supportannouncement.us.dlink.com\/announcement\/publication.aspx?name=SAP10300"
         },
         {
             "cveID": "CVE-2022-27593",
