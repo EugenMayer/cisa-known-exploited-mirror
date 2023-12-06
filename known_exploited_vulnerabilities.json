@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2023.12.04",
-    "dateReleased": "2023-12-04T15:01:06.7396Z",
-    "count": 1044,
+    "catalogVersion": "2023.12.05",
+    "dateReleased": "2023-12-05T16:45:55.5762Z",
+    "count": 1048,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -3042,7 +3042,7 @@
         },
         {
             "cveID": "CVE-2017-9248",
-            "vendorProject": "Progess",
+            "vendorProject": "Progress",
             "product": "ASP.NET AJAX and Sitefinity",
             "vulnerabilityName": "Progress Telerik UI for ASP.NET AJAX and Sitefinity Cryptographic Weakness Vulnerability",
             "dateAdded": "2021-11-03",
@@ -12531,6 +12531,54 @@
             "dueDate": "2023-12-25",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/support.apple.com\/en-us\/HT214031, https:\/\/support.apple.com\/en-us\/HT214032, https:\/\/support.apple.com\/en-us\/HT214033"
+        },
+        {
+            "cveID": "CVE-2023-33107",
+            "vendorProject": "Qualcomm",
+            "product": "Multiple Chipsets",
+            "vulnerabilityName": "Qualcomm Multiple Chipsets Integer Overflow Vulnerability",
+            "dateAdded": "2023-12-05",
+            "shortDescription": "Multiple Qualcomm chipsets contain an integer overflow vulnerability due to memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.",
+            "requiredAction": "Apply remediations or mitigations per vendor instructions or discontinue use of the product if remediation or mitigations are unavailable.",
+            "dueDate": "2023-12-26",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https:\/\/git.codelinaro.org\/clo\/la\/kernel\/msm-4.19\/-\/commit\/d66b799c804083ea5226cfffac6d6c4e7ad4968b"
+        },
+        {
+            "cveID": "CVE-2023-33106",
+            "vendorProject": "Qualcomm",
+            "product": "Multiple Chipsets",
+            "vulnerabilityName": "Qualcomm Multiple Chipsets Use of Out-of-Range Pointer Offset Vulnerability",
+            "dateAdded": "2023-12-05",
+            "shortDescription": "Multiple Qualcomm chipsets contain a use of out-of-range pointer offset vulnerability due to memory corruption in Graphics while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.",
+            "requiredAction": "Apply remediations or mitigations per vendor instructions or discontinue use of the product if remediation or mitigations are unavailable.",
+            "dueDate": "2023-12-26",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https:\/\/git.codelinaro.org\/clo\/la\/kernel\/msm-4.19\/-\/commit\/1e46e81dbeb69aafd5842ce779f07e617680fd58"
+        },
+        {
+            "cveID": "CVE-2023-33063",
+            "vendorProject": "Qualcomm",
+            "product": "Multiple Chipsets",
+            "vulnerabilityName": "Qualcomm Multiple Chipsets Use-After-Free Vulnerability",
+            "dateAdded": "2023-12-05",
+            "shortDescription": "Multiple Qualcomm chipsets contain a use-after-free vulnerability due to memory corruption in DSP Services during a remote call from HLOS to DSP.",
+            "requiredAction": "Apply remediations or mitigations per vendor instructions or discontinue use of the product if remediation or mitigations are unavailable.",
+            "dueDate": "2023-12-26",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https:\/\/git.codelinaro.org\/clo\/la\/kernel\/msm-5.15\/-\/commit\/2643808ddbedfaabbb334741873fb2857f78188a, https:\/\/git.codelinaro.org\/clo\/la\/kernel\/msm-4.14\/-\/commit\/d43222efda5a01c9804d74a541e3c1be9b7fe110"
+        },
+        {
+            "cveID": "CVE-2022-22071",
+            "vendorProject": "Qualcomm",
+            "product": "Multiple Chipsets",
+            "vulnerabilityName": "Qualcomm Multiple Chipsets Use-After-Free Vulnerability",
+            "dateAdded": "2023-12-05",
+            "shortDescription": "Multiple Qualcomm chipsets contain a use-after-free vulnerability when process shell memory is freed using IOCTL munmap call and process initialization is in progress.",
+            "requiredAction": "Apply remediations or mitigations per vendor instructions or discontinue use of the product if remediation or mitigations are unavailable.",
+            "dueDate": "2023-12-26",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https:\/\/git.codelinaro.org\/clo\/la\/kernel\/msm-5.4\/-\/commit\/586840fde350d7b8563df9889c8ce397e2c20dda"
         }
     ]
 }
