@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2023.12.05",
-    "dateReleased": "2023-12-05T16:45:55.5762Z",
-    "count": 1048,
+    "catalogVersion": "2023.12.07",
+    "dateReleased": "2023-12-07T15:01:25.8517Z",
+    "count": 1050,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12579,6 +12579,30 @@
             "dueDate": "2023-12-26",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https:\/\/git.codelinaro.org\/clo\/la\/kernel\/msm-5.4\/-\/commit\/586840fde350d7b8563df9889c8ce397e2c20dda"
+        },
+        {
+            "cveID": "CVE-2023-41266",
+            "vendorProject": "Qlik",
+            "product": "Sense",
+            "vulnerabilityName": "Qlik Sense Path Traversal Vulnerability",
+            "dateAdded": "2023-12-07",
+            "shortDescription": "Qlik Sense contains a path traversal vulnerability that allows a remote, unauthenticated attacker to create an anonymous session by sending maliciously crafted HTTP requests. This anonymous session could allow the attacker to send further requests to unauthorized endpoints.",
+            "requiredAction": "Apply remediations or mitigations per vendor instructions or discontinue use of the product if remediation or mitigations are unavailable.",
+            "dueDate": "2023-12-28",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/community.qlik.com\/t5\/Official-Support-Articles\/Critical-Security-fixes-for-Qlik-Sense-Enterprise-for-Windows\/ta-p\/2110801"
+        },
+        {
+            "cveID": "CVE-2023-41265",
+            "vendorProject": "Qlik",
+            "product": "Sense",
+            "vulnerabilityName": "Qlik Sense HTTP Tunneling Vulnerability",
+            "dateAdded": "2023-12-07",
+            "shortDescription": "Qlik Sense contains an HTTP tunneling vulnerability that allows an attacker to escalate privileges and execute HTTP requests on the backend server hosting the software.",
+            "requiredAction": "Apply remediations or mitigations per vendor instructions or discontinue use of the product if remediation or mitigations are unavailable.",
+            "dueDate": "2023-12-28",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/community.qlik.com\/t5\/Official-Support-Articles\/Critical-Security-fixes-for-Qlik-Sense-Enterprise-for-Windows\/ta-p\/2110801"
         }
     ]
 }
