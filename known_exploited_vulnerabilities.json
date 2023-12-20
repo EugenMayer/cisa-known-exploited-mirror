@@ -1,7 +1,7 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2023.12.13",
-    "dateReleased": "2023-12-13T14:25:09.7066Z",
+    "catalogVersion": "2023.12.19",
+    "dateReleased": "2023-12-19T14:28:55.1908Z",
     "count": 1051,
     "vulnerabilities": [
         {
@@ -12614,7 +12614,7 @@
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
             "dueDate": "2023-12-18",
             "knownRansomwareCampaignUse": "Unknown",
-            "notes": "Note that while it is possible to change the default password, implementors are encouraged to remove affected controllers from public networks per vendor advice: https:\/\/www.unitronicsplc.com\/cyber_security_vision-samba\/"
+            "notes": "Note that while it is possible to change the default password, implementors are encouraged to remove affected controllers from public networks and update the affected firmware: \r\nhttps:\/\/downloads.unitronicsplc.com\/Sites\/plc\/Technical_Library\/Unitronics-Cybersecurity-Advisory-2023-001-CVE-2023-6448.pdf"
         }
     ]
 }
