@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2023.12.19",
-    "dateReleased": "2023-12-19T14:28:55.1908Z",
-    "count": 1051,
+    "catalogVersion": "2023.12.21",
+    "dateReleased": "2023-12-21T14:58:24.0385Z",
+    "count": 1053,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12615,6 +12615,30 @@
             "dueDate": "2023-12-18",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "Note that while it is possible to change the default password, implementors are encouraged to remove affected controllers from public networks and update the affected firmware: \r\nhttps:\/\/downloads.unitronicsplc.com\/Sites\/plc\/Technical_Library\/Unitronics-Cybersecurity-Advisory-2023-001-CVE-2023-6448.pdf"
+        },
+        {
+            "cveID": "CVE-2023-49897",
+            "vendorProject": "FXC",
+            "product": "AE1021, AE1021PE",
+            "vulnerabilityName": "FXC AE1021, AE1021PE OS Command Injection Vulnerability",
+            "dateAdded": "2023-12-21",
+            "shortDescription": "FXC AE1021 and AE1021PE contain an OS command injection vulnerability that allows authenticated users to execute commands via a network.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-11",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/www.fxc.jp\/news\/20231206"
+        },
+        {
+            "cveID": "CVE-2023-47565",
+            "vendorProject": "QNAP",
+            "product": "VioStor NVR",
+            "vulnerabilityName": "QNAP VioStor NVR OS Command Injection Vulnerability",
+            "dateAdded": "2023-12-21",
+            "shortDescription": "QNAP VioStar NVR contains an OS command injection vulnerability that allows authenticated users to execute commands via a network.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-11",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/www.qnap.com\/en\/security-advisory\/qsa-23-48"
         }
     ]
 }
