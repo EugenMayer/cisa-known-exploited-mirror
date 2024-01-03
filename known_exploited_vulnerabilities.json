@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2023.12.21",
-    "dateReleased": "2023-12-21T14:58:24.0385Z",
-    "count": 1053,
+    "catalogVersion": "2024.01.02",
+    "dateReleased": "2024-01-02T19:06:25.5828Z",
+    "count": 1055,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12241,7 +12241,7 @@
             "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain a buffer overflow vulnerability that allows for sensitive information disclosure when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server.",
             "requiredAction": "Apply mitigations and kill all active and persistent sessions per vendor instructions [https:\/\/www.netscaler.com\/blog\/news\/cve-2023-4966-critical-security-update-now-available-for-netscaler-adc-and-netscaler-gateway\/] OR discontinue use of the product if mitigations are unavailable.",
             "dueDate": "2023-11-08",
-            "knownRansomwareCampaignUse": "Unknown",
+            "knownRansomwareCampaignUse": "Known",
             "notes": "https:\/\/www.netscaler.com\/blog\/news\/cve-2023-4966-critical-security-update-now-available-for-netscaler-adc-and-netscaler-gateway\/, https:\/\/support.citrix.com\/article\/CTX579459\/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20234966-and-cve20234967"
         },
         {
@@ -12639,6 +12639,30 @@
             "dueDate": "2024-01-11",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/www.qnap.com\/en\/security-advisory\/qsa-23-48"
+        },
+        {
+            "cveID": "CVE-2023-7101",
+            "vendorProject": "Spreadsheet::ParseExcel",
+            "product": "Spreadsheet::ParseExcel",
+            "vulnerabilityName": "Spreadsheet::ParseExcel Remote Code Execution Vulnerability",
+            "dateAdded": "2024-01-02",
+            "shortDescription": "Spreadsheet::ParseExcel contains a remote code execution vulnerability due to passing unvalidated input from a file into a string-type \u201ceval\u201d. Specifically, the issue stems from the evaluation of Number format strings within the Excel parsing logic.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-23",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https:\/\/metacpan.org\/dist\/Spreadsheet-ParseExcel and Barracuda's specific implementation and fix for their downstream issue CVE-2023-7102 at https:\/\/www.barracuda.com\/company\/legal\/esg-vulnerability"
+        },
+        {
+            "cveID": "CVE-2023-7024",
+            "vendorProject": "Google Chromium",
+            "product": "WebRTC",
+            "vulnerabilityName": "Google Chromium WebRTC Heap Buffer Overflow Vulnerability",
+            "dateAdded": "2024-01-02",
+            "shortDescription": "Google Chromium WebRTC, an open-source project providing web browsers with real-time communication, contains a heap buffer overflow vulnerability that allows an attacker to cause crashes or code execution. This vulnerability could impact web browsers using WebRTC, including but not limited to Google Chrome.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-23",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https:\/\/chromereleases.googleblog.com\/2023\/12\/stable-channel-update-for-desktop_20.html"
         }
     ]
 }
