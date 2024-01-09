@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.01.02",
-    "dateReleased": "2024-01-02T19:06:25.5828Z",
-    "count": 1055,
+    "catalogVersion": "2024.01.08",
+    "dateReleased": "2024-01-08T15:01:52.9591Z",
+    "count": 1061,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12663,6 +12663,78 @@
             "dueDate": "2024-01-23",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https:\/\/chromereleases.googleblog.com\/2023\/12\/stable-channel-update-for-desktop_20.html"
+        },
+        {
+            "cveID": "CVE-2023-23752",
+            "vendorProject": "Joomla!",
+            "product": "Joomla!",
+            "vulnerabilityName": "Joomla! Improper Access Control Vulnerability",
+            "dateAdded": "2024-01-08",
+            "shortDescription": "Joomla! contains an improper access control vulnerability that allows unauthorized access to webservice endpoints.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-29",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/developer.joomla.org\/security-centre\/894-20230201-core-improper-access-check-in-webservice-endpoints.html"
+        },
+        {
+            "cveID": "CVE-2016-20017",
+            "vendorProject": "D-Link",
+            "product": "DSL-2750B Devices",
+            "vulnerabilityName": "D-Link DSL-2750B Devices Command Injection Vulnerability",
+            "dateAdded": "2024-01-08",
+            "shortDescription": "D-Link DSL-2750B devices contain a command injection vulnerability that allows remote, unauthenticated command injection via the login.cgi cli parameter.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-29",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/supportannouncement.us.dlink.com\/announcement\/publication.aspx?name=SAP10088"
+        },
+        {
+            "cveID": "CVE-2023-41990",
+            "vendorProject": "Apple",
+            "product": "Multiple Products",
+            "vulnerabilityName": "Apple Multiple Products Code Execution Vulnerability",
+            "dateAdded": "2024-01-08",
+            "shortDescription": "Apple iOS, iPadOS, macOS, tvOS, and watchOS contain an unspecified vulnerability that allows for code execution when processing a font file.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-29",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/support.apple.com\/en-us\/HT213599, https:\/\/support.apple.com\/en-us\/HT213601, https:\/\/support.apple.com\/en-us\/HT213605, https:\/\/support.apple.com\/en-us\/HT213606, https:\/\/support.apple.com\/en-us\/HT213842, https:\/\/support.apple.com\/en-us\/HT213844, https:\/\/support.apple.com\/en-us\/HT213845"
+        },
+        {
+            "cveID": "CVE-2023-27524",
+            "vendorProject": "Apache",
+            "product": "Superset",
+            "vulnerabilityName": "Apache Superset Insecure Default Initialization of Resource Vulnerability",
+            "dateAdded": "2024-01-08",
+            "shortDescription": "Apache Superset contains an insecure default initialization of a resource vulnerability that allows an attacker to authenticate and access unauthorized resources on installations that have not altered the default configured SECRET_KEY according to installation instructions.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-29",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/lists.apache.org\/thread\/n0ftx60sllf527j7g11kmt24wvof8xyk"
+        },
+        {
+            "cveID": "CVE-2023-29300",
+            "vendorProject": "Adobe",
+            "product": "ColdFusion",
+            "vulnerabilityName": "Adobe ColdFusion Deserialization of Untrusted Data Vulnerability",
+            "dateAdded": "2024-01-08",
+            "shortDescription": "Adobe ColdFusion contains a deserialization of untrusted data vulnerability that allows for code execution.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-29",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/helpx.adobe.com\/security\/products\/coldfusion\/apsb23-40.html"
+        },
+        {
+            "cveID": "CVE-2023-38203",
+            "vendorProject": "Adobe",
+            "product": "ColdFusion",
+            "vulnerabilityName": "Adobe ColdFusion Deserialization of Untrusted Data Vulnerability",
+            "dateAdded": "2024-01-08",
+            "shortDescription": "Adobe ColdFusion contains a deserialization of untrusted data vulnerability that allows for code execution.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-29",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/helpx.adobe.com\/security\/products\/coldfusion\/apsb23-41.html"
         }
     ]
 }
