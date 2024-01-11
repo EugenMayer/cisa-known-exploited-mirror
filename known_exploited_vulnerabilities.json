@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.01.08",
-    "dateReleased": "2024-01-08T15:01:52.9591Z",
-    "count": 1061,
+    "catalogVersion": "2024.01.10",
+    "dateReleased": "2024-01-10T19:46:08.3855Z",
+    "count": 1064,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12735,6 +12735,42 @@
             "dueDate": "2024-01-29",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/helpx.adobe.com\/security\/products\/coldfusion\/apsb23-41.html"
+        },
+        {
+            "cveID": "CVE-2023-29357",
+            "vendorProject": "Microsoft",
+            "product": "SharePoint Server",
+            "vulnerabilityName": "Microsoft SharePoint Server Privilege Escalation Vulnerability",
+            "dateAdded": "2024-01-10",
+            "shortDescription": "Microsoft SharePoint Server contains an unspecified vulnerability that allows an unauthenticated attacker, who has gained access to spoofed JWT authentication tokens, to use them for executing a network attack. This attack bypasses authentication, enabling the attacker to gain administrator privileges.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-31",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/msrc.microsoft.com\/update-guide\/vulnerability\/CVE-2023-29357"
+        },
+        {
+            "cveID": "CVE-2023-46805",
+            "vendorProject": "Ivanti",
+            "product": "Connect Secure and Policy Secure",
+            "vulnerabilityName": "Ivanti Connect Secure and Policy Secure Authentication Bypass Vulnerability",
+            "dateAdded": "2024-01-10",
+            "shortDescription": "Ivanti Connect Secure (ICS, formerly known as Pulse Connect Secure) and Ivanti Policy Secure gateways contain an authentication bypass vulnerability in the web component that allows an attacker to access restricted resources by bypassing control checks. This vulnerability can be leveraged in conjunction with CVE-2024-21887, a command injection vulnerability.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-31",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/forums.ivanti.com\/s\/article\/CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
+        },
+        {
+            "cveID": "CVE-2024-21887",
+            "vendorProject": "Ivanti",
+            "product": "Connect Secure and Policy Secure",
+            "vulnerabilityName": "Ivanti Connect Secure and Policy Secure Command Injection Vulnerability",
+            "dateAdded": "2024-01-10",
+            "shortDescription": "Ivanti Connect Secure (ICS, formerly known as Pulse Connect Secure) and Ivanti Policy Secure contain a command injection vulnerability in the web components of these products, which can allow an authenticated administrator to send crafted requests to execute code on affected appliances. This vulnerability can be leveraged in conjunction with CVE-2023-46805, an authenticated bypass issue.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-31",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/forums.ivanti.com\/s\/article\/CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
         }
     ]
 }
