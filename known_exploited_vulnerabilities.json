@@ -1,7 +1,7 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.01.10",
-    "dateReleased": "2024-01-10T19:46:08.3855Z",
+    "catalogVersion": "2024.01.11",
+    "dateReleased": "2024-01-11T13:06:18.3302Z",
     "count": 1064,
     "vulnerabilities": [
         {
@@ -12758,7 +12758,7 @@
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
             "dueDate": "2024-01-31",
             "knownRansomwareCampaignUse": "Unknown",
-            "notes": "https:\/\/forums.ivanti.com\/s\/article\/CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
+            "notes": "Please apply mitigations per vendor instructions. For more information, please see: https:\/\/forums.ivanti.com\/s\/article\/CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
         },
         {
             "cveID": "CVE-2024-21887",
@@ -12770,7 +12770,7 @@
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
             "dueDate": "2024-01-31",
             "knownRansomwareCampaignUse": "Unknown",
-            "notes": "https:\/\/forums.ivanti.com\/s\/article\/CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
+            "notes": "Please apply mitigations per vendor instructions. For more information, please see: https:\/\/forums.ivanti.com\/s\/article\/CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
         }
     ]
 }
