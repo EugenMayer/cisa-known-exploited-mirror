@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.01.16",
-    "dateReleased": "2024-01-16T15:34:54.103Z",
-    "count": 1065,
+    "catalogVersion": "2024.01.17",
+    "dateReleased": "2024-01-17T20:48:10.3126Z",
+    "count": 1068,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12756,7 +12756,7 @@
             "dateAdded": "2024-01-10",
             "shortDescription": "Ivanti Connect Secure (ICS, formerly known as Pulse Connect Secure) and Ivanti Policy Secure gateways contain an authentication bypass vulnerability in the web component that allows an attacker to access restricted resources by bypassing control checks. This vulnerability can be leveraged in conjunction with CVE-2024-21887, a command injection vulnerability.",
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-            "dueDate": "2024-01-31",
+            "dueDate": "2024-01-22",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "Please apply mitigations per vendor instructions. For more information, please see: https:\/\/forums.ivanti.com\/s\/article\/CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
         },
@@ -12768,7 +12768,7 @@
             "dateAdded": "2024-01-10",
             "shortDescription": "Ivanti Connect Secure (ICS, formerly known as Pulse Connect Secure) and Ivanti Policy Secure contain a command injection vulnerability in the web components of these products, which can allow an authenticated administrator to send crafted requests to execute code on affected appliances. This vulnerability can be leveraged in conjunction with CVE-2023-46805, an authenticated bypass issue.",
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-            "dueDate": "2024-01-31",
+            "dueDate": "2024-01-22",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "Please apply mitigations per vendor instructions. For more information, please see: https:\/\/forums.ivanti.com\/s\/article\/CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
         },
@@ -12783,6 +12783,42 @@
             "dueDate": "2024-02-06",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/laravel.com\/docs\/5.6\/upgrade#upgrade-5.6.30"
+        },
+        {
+            "cveID": "CVE-2024-0519",
+            "vendorProject": "Google",
+            "product": "Chromium V8",
+            "vulnerabilityName": "Google Chromium V8 Out-of-Bounds Memory Access Vulnerability",
+            "dateAdded": "2024-01-17",
+            "shortDescription": "Google Chromium V8 contains an out-of-bounds memory access vulnerability. Specific impacts from exploitation are not available at this time.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-02-07",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/chromereleases.googleblog.com\/2024\/01\/stable-channel-update-for-desktop_16.html"
+        },
+        {
+            "cveID": "CVE-2023-6549",
+            "vendorProject": "Citrix",
+            "product": "NetScaler ADC and NetScaler Gateway",
+            "vulnerabilityName": "Citrix NetScaler ADC and NetScaler Gateway Buffer Overflow Vulnerability",
+            "dateAdded": "2024-01-17",
+            "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain a buffer overflow vulnerability that allows for a denial-of-service when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-02-07",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/support.citrix.com\/article\/CTX584986\/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20236548-and-cve20236549"
+        },
+        {
+            "cveID": "CVE-2023-6548",
+            "vendorProject": "Citrix",
+            "product": "NetScaler ADC and NetScaler Gateway",
+            "vulnerabilityName": "Citrix NetScaler ADC and NetScaler Gateway Code Injection Vulnerability",
+            "dateAdded": "2024-01-17",
+            "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain a code injection vulnerability that allows for authenticated remote code execution on the management interface with access to NSIP, CLIP, or SNIP.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-01-24",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/support.citrix.com\/article\/CTX584986\/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20236548-and-cve20236549"
         }
     ]
 }
