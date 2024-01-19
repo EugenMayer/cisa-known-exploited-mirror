@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.01.17",
-    "dateReleased": "2024-01-17T20:48:10.3126Z",
-    "count": 1068,
+    "catalogVersion": "2024.01.18",
+    "dateReleased": "2024-01-18T18:02:54.5699Z",
+    "count": 1069,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12819,6 +12819,18 @@
             "dueDate": "2024-01-24",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/support.citrix.com\/article\/CTX584986\/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20236548-and-cve20236549"
+        },
+        {
+            "cveID": "CVE-2023-35082",
+            "vendorProject": "Ivanti",
+            "product": "Endpoint Manager Mobile (EPMM) and MobileIron Core",
+            "vulnerabilityName": "Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core Authentication Bypass Vulnerability",
+            "dateAdded": "2024-01-18",
+            "shortDescription": "Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core contain an authentication bypass vulnerability that allows unauthorized users to access restricted functionality or resources of the application.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-02-08",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/forums.ivanti.com\/s\/article\/CVE-2023-35082-Remote-Unauthenticated-API-Access-Vulnerability-in-MobileIron-Core-11-2-and-older"
         }
     ]
 }
