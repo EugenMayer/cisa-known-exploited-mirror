@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.01.18",
-    "dateReleased": "2024-01-18T18:02:54.5699Z",
-    "count": 1069,
+    "catalogVersion": "2024.01.22",
+    "dateReleased": "2024-01-22T15:00:24.1583Z",
+    "count": 1070,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12831,6 +12831,18 @@
             "dueDate": "2024-02-08",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/forums.ivanti.com\/s\/article\/CVE-2023-35082-Remote-Unauthenticated-API-Access-Vulnerability-in-MobileIron-Core-11-2-and-older"
+        },
+        {
+            "cveID": "CVE-2023-34048",
+            "vendorProject": "VMware",
+            "product": "vCenter Server",
+            "vulnerabilityName": "VMware vCenter Server Out-of-Bounds Write Vulnerability",
+            "dateAdded": "2024-01-22",
+            "shortDescription": "VMware vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol that allows an attacker to conduct remote code execution.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-02-12",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/www.vmware.com\/security\/advisories\/VMSA-2023-0023.html"
         }
     ]
 }
