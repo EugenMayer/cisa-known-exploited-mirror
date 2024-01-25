@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.01.23",
-    "dateReleased": "2024-01-23T15:10:08.8256Z",
-    "count": 1071,
+    "catalogVersion": "2024.01.24",
+    "dateReleased": "2024-01-24T15:00:13.4224Z",
+    "count": 1072,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12855,6 +12855,18 @@
             "dueDate": "2024-02-13",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/support.apple.com\/en-us\/HT214055,\r\nhttps:\/\/support.apple.com\/en-us\/HT214056, https:\/\/support.apple.com\/en-us\/HT214057, https:\/\/support.apple.com\/en-us\/HT214058, https:\/\/support.apple.com\/en-us\/HT214059, https:\/\/support.apple.com\/en-us\/HT214061, https:\/\/support.apple.com\/en-us\/HT214063"
+        },
+        {
+            "cveID": "CVE-2023-22527",
+            "vendorProject": "Atlassian",
+            "product": "Confluence Data Center and Server",
+            "vulnerabilityName": "Atlassian Confluence Data Center and Server Template Injection Vulnerability",
+            "dateAdded": "2024-01-24",
+            "shortDescription": "Atlassian Confluence Data Center and Server contain an unauthenticated OGNL template injection vulnerability that can lead to remote code execution.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-02-14",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/confluence.atlassian.com\/security\/cve-2023-22527-rce-remote-code-execution-vulnerability-in-confluence-data-center-and-confluence-server-1333990257.html"
         }
     ]
 }
