@@ -1,7 +1,7 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.01.24",
-    "dateReleased": "2024-01-24T15:00:13.4224Z",
+    "catalogVersion": "2024.01.29",
+    "dateReleased": "2024-01-29T19:43:29.2184Z",
     "count": 1072,
     "vulnerabilities": [
         {
@@ -12614,7 +12614,7 @@
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
             "dueDate": "2023-12-18",
             "knownRansomwareCampaignUse": "Unknown",
-            "notes": "Note that while it is possible to change the default password, implementors are encouraged to remove affected controllers from public networks and update the affected firmware: \r\nhttps:\/\/downloads.unitronicsplc.com\/Sites\/plc\/Technical_Library\/Unitronics-Cybersecurity-Advisory-2023-001-CVE-2023-6448.pdf"
+            "notes": "Note that while it is possible to change the default password, implementors are encouraged to remove affected controllers from public networks and update the affected firmware: https:\/\/downloads.unitronicsplc.com\/Sites\/plc\/Technical_Library\/Unitronics-Cybersecurity-Advisory-2023-001-CVE-2023-6448.pdf"
         },
         {
             "cveID": "CVE-2023-49897",
