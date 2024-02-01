@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.01.29",
-    "dateReleased": "2024-01-29T19:43:29.2184Z",
-    "count": 1072,
+    "catalogVersion": "2024.01.31",
+    "dateReleased": "2024-01-31T19:32:40.0763Z",
+    "count": 1074,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12758,7 +12758,7 @@
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
             "dueDate": "2024-01-22",
             "knownRansomwareCampaignUse": "Unknown",
-            "notes": "Please apply mitigations per vendor instructions. For more information, please see: https:\/\/forums.ivanti.com\/s\/article\/CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
+            "notes": "Please apply mitigations per vendor instructions. For more information, please see: https:\/\/forums.ivanti.com\/s\/article\/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
         },
         {
             "cveID": "CVE-2024-21887",
@@ -12770,7 +12770,7 @@
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
             "dueDate": "2024-01-22",
             "knownRansomwareCampaignUse": "Unknown",
-            "notes": "Please apply mitigations per vendor instructions. For more information, please see: https:\/\/forums.ivanti.com\/s\/article\/CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
+            "notes": "Please apply mitigations per vendor instructions. For more information, please see: https:\/\/forums.ivanti.com\/s\/article\/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
         },
         {
             "cveID": "CVE-2018-15133",
@@ -12867,6 +12867,30 @@
             "dueDate": "2024-02-14",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/confluence.atlassian.com\/security\/cve-2023-22527-rce-remote-code-execution-vulnerability-in-confluence-data-center-and-confluence-server-1333990257.html"
+        },
+        {
+            "cveID": "CVE-2022-48618",
+            "vendorProject": "Apple",
+            "product": "Multiple Products",
+            "vulnerabilityName": "Apple Multiple Products Improper Authentication Vulnerability",
+            "dateAdded": "2024-01-31",
+            "shortDescription": "Apple iOS, iPadOS, macOS, tvOS, and watchOS contain an improper authentication vulnerability that allows an attacker with read and write capabilities to bypass Pointer Authentication.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-02-21",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/support.apple.com\/en-us\/HT213530, https:\/\/support.apple.com\/en-us\/HT213532, https:\/\/support.apple.com\/en-us\/HT213535, https:\/\/support.apple.com\/en-us\/HT213536"
+        },
+        {
+            "cveID": "CVE-2024-21893",
+            "vendorProject": "Ivanti",
+            "product": "Connect Secure, Policy Secure, and Neurons",
+            "vulnerabilityName": "Ivanti Connect Secure, Policy Secure, and Neurons Server-Side Request Forgery (SSRF) Vulnerability",
+            "dateAdded": "2024-01-31",
+            "shortDescription": "Ivanti Connect Secure (ICS, formerly known as Pulse Connect Secure), Ivanti Policy Secure, and Ivanti Neurons contain a server-side request forgery (SSRF) vulnerability in the SAML component that allows an attacker to access certain restricted resources without authentication.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-02-02",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/forums.ivanti.com\/s\/article\/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
         }
     ]
 }
