@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.01.31",
-    "dateReleased": "2024-01-31T19:32:40.0763Z",
-    "count": 1074,
+    "catalogVersion": "2024.02.06",
+    "dateReleased": "2024-02-06T15:01:22.6939Z",
+    "count": 1075,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12891,6 +12891,18 @@
             "dueDate": "2024-02-02",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/forums.ivanti.com\/s\/article\/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US"
+        },
+        {
+            "cveID": "CVE-2023-4762",
+            "vendorProject": "Google",
+            "product": "Chromium V8 Engine",
+            "vulnerabilityName": "Google Chromium V8 Type Confusion Vulnerability",
+            "dateAdded": "2024-02-06",
+            "shortDescription": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute code via a crafted HTML page.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-02-27",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/chromereleases.googleblog.com\/2023\/09\/stable-channel-update-for-desktop.html"
         }
     ]
 }
