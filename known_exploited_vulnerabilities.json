@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.02.14",
-    "dateReleased": "2024-02-14T18:40:05.2833Z",
-    "count": 1079,
+    "catalogVersion": "2024.02.15",
+    "dateReleased": "2024-02-15T20:01:20.456Z",
+    "count": 1081,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12951,6 +12951,30 @@
             "dueDate": "2024-03-05",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/msrc.microsoft.com\/update-guide\/en-US\/vulnerability\/CVE-2024-21351"
+        },
+        {
+            "cveID": "CVE-2020-3259",
+            "vendorProject": "Cisco",
+            "product": "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)",
+            "vulnerabilityName": "Cisco ASA and FTD Information Disclosure Vulnerability",
+            "dateAdded": "2024-02-15",
+            "shortDescription": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain an information disclosure vulnerability. An attacker could retrieve memory contents on an affected device, which could lead to the disclosure of confidential information due to a buffer tracking issue when the software parses invalid URLs that are requested from the web services interface. This vulnerability affects only specific AnyConnect and WebVPN configurations.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-03-07",
+            "knownRansomwareCampaignUse": "Known",
+            "notes": "https:\/\/tools.cisco.com\/security\/center\/content\/CiscoSecurityAdvisory\/cisco-sa-asaftd-info-disclose-9eJtycMB"
+        },
+        {
+            "cveID": "CVE-2024-21410",
+            "vendorProject": "Microsoft",
+            "product": "Exchange Server",
+            "vulnerabilityName": "Microsoft Exchange Server Privilege Escalation Vulnerability",
+            "dateAdded": "2024-02-15",
+            "shortDescription": "Microsoft Exchange Server contains an unspecified vulnerability that allows for privilege escalation.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-03-07",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/msrc.microsoft.com\/update-guide\/vulnerability\/CVE-2024-21410"
         }
     ]
 }
