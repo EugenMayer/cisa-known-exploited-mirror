@@ -1,7 +1,7 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.02.15",
-    "dateReleased": "2024-02-15T20:01:20.456Z",
+    "catalogVersion": "2024.02.16",
+    "dateReleased": "2024-02-16T19:54:05.3915Z",
     "count": 1081,
     "vulnerabilities": [
         {
@@ -11833,7 +11833,7 @@
             "shortDescription": "RARLAB WinRAR contains an unspecified vulnerability that allows an attacker to execute code when a user attempts to view a benign file within a ZIP archive.",
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
             "dueDate": "2023-09-14",
-            "knownRansomwareCampaignUse": "Unknown",
+            "knownRansomwareCampaignUse": "Known",
             "notes": "http:\/\/www.win-rar.com\/singlenewsview.html?&L=0&tx_ttnews%5Btt_news%5D=232&cHash=c5bf79590657e32554c6683296a8e8aa"
         },
         {
