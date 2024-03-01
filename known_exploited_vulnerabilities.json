@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.02.26",
-    "dateReleased": "2024-02-26T14:33:47.783Z",
-    "count": 1082,
+    "catalogVersion": "2024.02.29",
+    "dateReleased": "2024-02-29T15:00:53.5206Z",
+    "count": 1083,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12987,6 +12987,18 @@
             "dueDate": "2024-02-29",
             "knownRansomwareCampaignUse": "Known",
             "notes": "https:\/\/www.connectwise.com\/company\/trust\/security-bulletins\/connectwise-screenconnect-23.9.8"
+        },
+        {
+            "cveID": "CVE-2023-29360",
+            "vendorProject": "Microsoft",
+            "product": "Streaming Service",
+            "vulnerabilityName": "Microsoft Streaming Service Untrusted Pointer Dereference Vulnerability",
+            "dateAdded": "2024-02-29",
+            "shortDescription": "Microsoft Streaming Service contains an untrusted pointer dereference vulnerability that allows for privilege escalation, enabling a local attacker to gain SYSTEM privileges.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-03-21",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/msrc.microsoft.com\/update-guide\/vulnerability\/CVE-2023-29360"
         }
     ]
 }
