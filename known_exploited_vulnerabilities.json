@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.03.04",
-    "dateReleased": "2024-03-04T15:01:21.7075Z",
-    "count": 1084,
+    "catalogVersion": "2024.03.05",
+    "dateReleased": "2024-03-05T15:01:24.6782Z",
+    "count": 1086,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -13011,6 +13011,30 @@
             "dueDate": "2024-03-25",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/msrc.microsoft.com\/update-guide\/vulnerability\/CVE-2024-21338"
+        },
+        {
+            "cveID": "CVE-2023-21237",
+            "vendorProject": "Android",
+            "product": "Pixel",
+            "vulnerabilityName": "Android Pixel Information Disclosure Vulnerability ",
+            "dateAdded": "2024-03-05",
+            "shortDescription": "Android Pixel contains a vulnerability in the Framework component, where the UI may be misleading or insufficient, providing a means to hide a foreground service notification. This could enable a local attacker to disclose sensitive information.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-03-26",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/source.android.com\/docs\/security\/bulletin\/pixel\/2023-06-01"
+        },
+        {
+            "cveID": "CVE-2021-36380",
+            "vendorProject": "Sunhillo",
+            "product": "SureLine",
+            "vulnerabilityName": "Sunhillo SureLine OS Command Injection Vulnerablity",
+            "dateAdded": "2024-03-05",
+            "shortDescription": "Sunhillo SureLine contains an OS command injection vulnerability that allows an attacker to cause a denial-of-service or utilize the device for persistence on the network via shell metacharacters in ipAddr or dnsAddr in \/cgi\/networkDiag.cgi.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-03-26",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/www.sunhillo.com\/fb011\/"
         }
     ]
 }
