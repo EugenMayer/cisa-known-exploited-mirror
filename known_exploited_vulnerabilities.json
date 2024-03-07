@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.03.05",
-    "dateReleased": "2024-03-05T15:01:24.6782Z",
-    "count": 1086,
+    "catalogVersion": "2024.03.06",
+    "dateReleased": "2024-03-06T15:00:41.3866Z",
+    "count": 1088,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -13035,6 +13035,30 @@
             "dueDate": "2024-03-26",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/www.sunhillo.com\/fb011\/"
+        },
+        {
+            "cveID": "CVE-2024-23225",
+            "vendorProject": "Apple",
+            "product": "iOS and iPadOS",
+            "vulnerabilityName": "Apple iOS and iPadOS Memory Corruption Vulnerability",
+            "dateAdded": "2024-03-06",
+            "shortDescription": "Apple iOS and iPadOS kernel contain a memory corruption vulnerability that allows an attacker with arbitrary kernel read and write capability to bypass kernel memory protections.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-03-27",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/support.apple.com\/en-us\/HT214081, https:\/\/support.apple.com\/en-us\/HT214082"
+        },
+        {
+            "cveID": "CVE-2024-23296",
+            "vendorProject": "Apple",
+            "product": "iOS and iPadOS",
+            "vulnerabilityName": "Apple iOS and iPadOS Memory Corruption Vulnerability",
+            "dateAdded": "2024-03-06",
+            "shortDescription": "Apple iOS and iPadOS RTKit contain a memory corruption vulnerability that allows an attacker with arbitrary kernel read and write capability to bypass kernel memory protections.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-03-27",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/support.apple.com\/en-us\/HT214081"
         }
     ]
 }
