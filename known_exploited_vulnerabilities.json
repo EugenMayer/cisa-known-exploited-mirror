@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.03.06",
-    "dateReleased": "2024-03-06T15:00:41.3866Z",
-    "count": 1088,
+    "catalogVersion": "2024.03.07",
+    "dateReleased": "2024-03-07T20:00:18.3185Z",
+    "count": 1089,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -13059,6 +13059,18 @@
             "dueDate": "2024-03-27",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/support.apple.com\/en-us\/HT214081"
+        },
+        {
+            "cveID": "CVE-2024-27198",
+            "vendorProject": "JetBrains",
+            "product": "TeamCity",
+            "vulnerabilityName": "JetBrains TeamCity Authentication Bypass Vulnerability",
+            "dateAdded": "2024-03-07",
+            "shortDescription": "JetBrains TeamCity contains an authentication bypass vulnerability that allows an attacker to perform admin actions.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-03-28",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/www.jetbrains.com\/help\/teamcity\/teamcity-2023-11-4-release-notes.html"
         }
     ]
 }
