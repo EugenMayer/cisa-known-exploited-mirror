@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.03.18",
-    "dateReleased": "2024-03-18T17:37:00.9876Z",
-    "count": 1089,
+    "catalogVersion": "2024.03.25",
+    "dateReleased": "2024-03-25T14:04:34.5032Z",
+    "count": 1092,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -13071,6 +13071,42 @@
             "dueDate": "2024-03-28",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/www.jetbrains.com\/help\/teamcity\/teamcity-2023-11-4-release-notes.html"
+        },
+        {
+            "cveID": "CVE-2019-7256",
+            "vendorProject": "Nice",
+            "product": "Linear eMerge E3-Series",
+            "vulnerabilityName": "Nice Linear eMerge E3-Series OS Command Injection Vulnerability",
+            "dateAdded": "2024-03-25",
+            "shortDescription": "Nice Linear eMerge E3-Series contains an OS command injection vulnerability that allows an attacker to conduct remote code execution.",
+            "requiredAction": "Contact the vendor for guidance on remediating firmware, per their advisory.",
+            "dueDate": "2024-04-15",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/linear-solutions.com\/wp-content\/uploads\/E3-Bulletin-06-27-2023.pdf, https:\/\/www.cisa.gov\/news-events\/ics-advisories\/icsa-24-065-01"
+        },
+        {
+            "cveID": "CVE-2021-44529",
+            "vendorProject": "Ivanti",
+            "product": "Endpoint Manager Cloud Service Appliance (EPM CSA)",
+            "vulnerabilityName": "Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) Code Injection Vulnerability ",
+            "dateAdded": "2024-03-25",
+            "shortDescription": "Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) contains a code injection vulnerability that allows an unauthenticated user to execute malicious code with limited permissions (nobody).",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-04-15",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/forums.ivanti.com\/s\/article\/SA-2021-12-02?language=en_US"
+        },
+        {
+            "cveID": "CVE-2023-48788",
+            "vendorProject": "Fortinet",
+            "product": "FortiClient EMS",
+            "vulnerabilityName": "Fortinet FortiClient EMS SQL Injection Vulnerability",
+            "dateAdded": "2024-03-25",
+            "shortDescription": "Fortinet FortiClient EMS contains a SQL injection vulnerability that allows an unauthenticated attacker to execute commands as SYSTEM via specifically crafted requests.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-04-15",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/www.fortiguard.com\/psirt\/FG-IR-24-007"
         }
     ]
 }
