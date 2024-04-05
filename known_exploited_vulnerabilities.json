@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.03.26",
-    "dateReleased": "2024-03-26T14:00:22.8396Z",
-    "count": 1093,
+    "catalogVersion": "2024.04.04",
+    "dateReleased": "2024-04-04T14:01:27.5435Z",
+    "count": 1095,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -13119,6 +13119,30 @@
             "dueDate": "2024-04-16",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/msrc.microsoft.com\/update-guide\/vulnerability\/CVE-2023-24955"
+        },
+        {
+            "cveID": "CVE-2024-29748",
+            "vendorProject": "Android",
+            "product": "Pixel",
+            "vulnerabilityName": "Android Pixel Privilege Escalation Vulnerability",
+            "dateAdded": "2024-04-04",
+            "shortDescription": "Android Pixel contains a privilege escalation vulnerability that allows an attacker to interrupt a factory reset triggered by a device admin app.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-04-25",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/source.android.com\/docs\/security\/bulletin\/pixel\/2024-04-01"
+        },
+        {
+            "cveID": "CVE-2024-29745",
+            "vendorProject": "Android",
+            "product": "Pixel",
+            "vulnerabilityName": "Android Pixel Information Disclosure Vulnerability",
+            "dateAdded": "2024-04-04",
+            "shortDescription": "Android Pixel contains an information disclosure vulnerability in the fastboot firmware used to support unlocking, flashing, and locking affected devices.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-04-25",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/source.android.com\/docs\/security\/bulletin\/pixel\/2024-04-01"
         }
     ]
 }
