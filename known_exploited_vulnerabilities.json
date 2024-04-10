@@ -1,7 +1,7 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.04.08",
-    "dateReleased": "2024-04-08T13:37:14.6625Z",
+    "catalogVersion": "2024.04.09",
+    "dateReleased": "2024-04-09T18:39:06.5904Z",
     "count": 1095,
     "vulnerabilities": [
         {
@@ -12001,7 +12001,7 @@
             "shortDescription": "Laravel Ignition contains a file upload vulnerability that allows unauthenticated remote attackers to execute malicious code due to insecure usage of file_get_contents() and file_put_contents().",
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
             "dueDate": "2023-10-09",
-            "knownRansomwareCampaignUse": "Unknown",
+            "knownRansomwareCampaignUse": "Known",
             "notes": "https:\/\/github.com\/facade\/ignition\/releases\/tag\/2.5.2"
         },
         {
@@ -13105,7 +13105,7 @@
             "shortDescription": "Fortinet FortiClient EMS contains a SQL injection vulnerability that allows an unauthenticated attacker to execute commands as SYSTEM via specifically crafted requests.",
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
             "dueDate": "2024-04-15",
-            "knownRansomwareCampaignUse": "Unknown",
+            "knownRansomwareCampaignUse": "Known",
             "notes": "https:\/\/www.fortiguard.com\/psirt\/FG-IR-24-007"
         },
         {
