@@ -1,7 +1,7 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.04.15",
-    "dateReleased": "2024-04-15T13:39:05.4409Z",
+    "catalogVersion": "2024.04.17",
+    "dateReleased": "2024-04-17T14:18:10.2308Z",
     "count": 1098,
     "vulnerabilities": [
         {
@@ -13175,7 +13175,7 @@
             "vulnerabilityName": "Palo Alto Networks PAN-OS Command Injection Vulnerability",
             "dateAdded": "2024-04-12",
             "shortDescription": "Palo Alto Networks PAN-OS GlobalProtect feature contains a command injection vulnerability that allows an unauthenticated attacker to execute commands with root privileges on the firewall.",
-            "requiredAction": "Apply mitigations per vendor instructions as they become available. Otherwise, users with vulnerable versions of affected devices should enable Threat Prevention Threat ID 95187 if that is available, or disable device telemetry until patches are available from the vendor. See the vendor bulletin for more details and a patch release schedule.",
+            "requiredAction": "Apply mitigations per vendor instructions as they become available. Otherwise, users with vulnerable versions of affected devices should enable Threat Prevention IDs available from the vendor. See the vendor bulletin for more details and a patch release schedule.",
             "dueDate": "2024-04-19",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/security.paloaltonetworks.com\/CVE-2024-3400"
