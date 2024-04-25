@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.04.23",
-    "dateReleased": "2024-04-23T14:01:59.5258Z",
-    "count": 1099,
+    "catalogVersion": "2024.04.24",
+    "dateReleased": "2024-04-24T16:06:32.5485Z",
+    "count": 1102,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -13191,6 +13191,42 @@
             "dueDate": "2024-05-14",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/msrc.microsoft.com\/update-guide\/vulnerability\/CVE-2022-38028"
+        },
+        {
+            "cveID": "CVE-2024-4040",
+            "vendorProject": "CrushFTP",
+            "product": "CrushFTP",
+            "vulnerabilityName": "CrushFTP VFS Sandbox Escape Vulnerability",
+            "dateAdded": "2024-04-24",
+            "shortDescription": "CrushFTP contains an unspecified sandbox escape vulnerability that allows a remote attacker to escape the CrushFTP virtual file system (VFS).",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-05-01",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/www.crushftp.com\/crush11wiki\/Wiki.jsp?page=Update&version=34"
+        },
+        {
+            "cveID": "CVE-2024-20359",
+            "vendorProject": "Cisco",
+            "product": "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)",
+            "vulnerabilityName": "Cisco ASA and FTD Privilege Escalation Vulnerability",
+            "dateAdded": "2024-04-24",
+            "shortDescription": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain a privilege escalation vulnerability that can allow local privilege escalation from Administrator to root.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-05-01",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/sec.cloudapps.cisco.com\/security\/center\/content\/CiscoSecurityAdvisory\/cisco-sa-asaftd-persist-rce-FLsNXF4h"
+        },
+        {
+            "cveID": "CVE-2024-20353",
+            "vendorProject": "Cisco",
+            "product": "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)",
+            "vulnerabilityName": "Cisco ASA and FTD Denial of Service Vulnerability",
+            "dateAdded": "2024-04-24",
+            "shortDescription": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain an infinite loop vulnerability that can lead to remote denial of service condition.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-05-01",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/sec.cloudapps.cisco.com\/security\/center\/content\/CiscoSecurityAdvisory\/cisco-sa-asaftd-websrvs-dos-X8gNucD2"
         }
     ]
 }
