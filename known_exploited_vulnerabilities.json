@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.04.24",
-    "dateReleased": "2024-04-24T16:06:32.5485Z",
-    "count": 1102,
+    "catalogVersion": "2024.04.30",
+    "dateReleased": "2024-04-30T20:04:57.8071Z",
+    "count": 1103,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -9854,7 +9854,7 @@
             "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
             "dueDate": "2022-09-29",
             "knownRansomwareCampaignUse": "Unknown",
-            "notes": "https:\/\/www.dlink.ru\/mn\/products\/2\/728.html"
+            "notes": "https:\/\/www.dlink.com\/uk\/en\/support\/product\/dir-300-wireless-g-router"
         },
         {
             "cveID": "CVE-2011-1823",
@@ -13227,6 +13227,18 @@
             "dueDate": "2024-05-01",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/sec.cloudapps.cisco.com\/security\/center\/content\/CiscoSecurityAdvisory\/cisco-sa-asaftd-websrvs-dos-X8gNucD2"
+        },
+        {
+            "cveID": "CVE-2024-29988",
+            "vendorProject": "Microsoft",
+            "product": "SmartScreen Prompt",
+            "vulnerabilityName": "Microsoft SmartScreen Prompt Security Feature Bypass Vulnerability",
+            "dateAdded": "2024-04-30",
+            "shortDescription": "Microsoft SmartScreen Prompt contains a security feature bypass vulnerability that allows an attacker to bypass the Mark of the Web (MotW) feature. This vulnerability can be chained with CVE-2023-38831 and CVE-2024-21412 to execute a malicious file.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-05-21",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "https:\/\/msrc.microsoft.com\/update-guide\/vulnerability\/CVE-2024-29988"
         }
     ]
 }
