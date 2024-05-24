@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.05.20",
-    "dateReleased": "2024-05-20T14:00:48.9833Z",
-    "count": 1112,
+    "catalogVersion": "2024.05.23",
+    "dateReleased": "2024-05-23T14:03:15.0845Z",
+    "count": 1113,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -12218,7 +12218,7 @@
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
             "dueDate": "2023-10-31",
             "knownRansomwareCampaignUse": "Unknown",
-            "notes": "https:\/\/blog.cloudflare.com\/technical-breakdown-http2-rapid-reset-ddos-attack\/"
+            "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status.   For more information, please see: https:\/\/blog.cloudflare.com\/technical-breakdown-http2-rapid-reset-ddos-attack\/"
         },
         {
             "cveID": "CVE-2023-20198",
@@ -13346,7 +13346,19 @@
             "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
             "dueDate": "2024-06-10",
             "knownRansomwareCampaignUse": "Unknown",
-            "notes": "https:\/\/github.com\/nextgenhealthcare\/connect\/wiki\/4.4.1---What%27s-New"
+            "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status.   For more information, please see: https:\/\/github.com\/nextgenhealthcare\/connect\/wiki\/4.4.1---What%27s-New"
+        },
+        {
+            "cveID": "CVE-2020-17519",
+            "vendorProject": "Apache",
+            "product": "Flink",
+            "vulnerabilityName": "Apache Flink Improper Access Control Vulnerability",
+            "dateAdded": "2024-05-23",
+            "shortDescription": "Apache Flink contains an improper access control vulnerability that allows an attacker to read any file on the local filesystem of the JobManager through its REST interface.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-06-13",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https:\/\/lists.apache.org\/thread\/typ0h03zyfrzjqlnb7plh64df1g2383d"
         }
     ]
 }
