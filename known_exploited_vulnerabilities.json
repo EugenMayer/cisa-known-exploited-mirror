@@ -1,8 +1,8 @@
 {
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion": "2024.05.28",
-    "dateReleased": "2024-05-28T14:01:06.9677Z",
-    "count": 1114,
+    "catalogVersion": "2024.05.29",
+    "dateReleased": "2024-05-29T14:00:16.7176Z",
+    "count": 1115,
     "vulnerabilities": [
         {
             "cveID": "CVE-2021-27104",
@@ -13371,6 +13371,18 @@
             "dueDate": "2024-06-18",
             "knownRansomwareCampaignUse": "Unknown",
             "notes": "https:\/\/chromereleases.googleblog.com\/2024\/05\/stable-channel-update-for-desktop_23.html?m=1"
+        },
+        {
+            "cveID": "CVE-2024-4978",
+            "vendorProject": "Justice AV Solutions",
+            "product": "Viewer ",
+            "vulnerabilityName": "Justice AV Solutions (JAVS) Viewer Installer Embedded Malicious Code Vulnerability",
+            "dateAdded": "2024-05-29",
+            "shortDescription": "Justice AV Solutions (JAVS) Viewer installer contains a malicious version of ffmpeg.exe, named fffmpeg.exe (SHA256: 421a4ad2615941b177b6ec4ab5e239c14e62af2ab07c6df1741e2a62223223c4). When run, this creates a backdoor connection to a malicious C2 server.",
+            "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+            "dueDate": "2024-06-19",
+            "knownRansomwareCampaignUse": "Unknown",
+            "notes": "Please follow the vendor\u2019s instructions as outlined in the public statements at https:\/\/www.rapid7.com\/blog\/post\/2024\/05\/23\/cve-2024-4978-backdoored-justice-av-solutions-viewer-software-used-in-apparent-supply-chain-attack#remediation and https:\/\/www.javs.com\/downloads"
         }
     ]
 }
